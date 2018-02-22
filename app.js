@@ -1,1 +1,4 @@
-var citypoint
+var Points = {
+	cities  = [],
+	landmarks = []
+};
