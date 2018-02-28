@@ -1,0 +1,44 @@
+#topNav {
+	position: absolute;
+	top: 5%;
+	right: 7%;
+}
+
+#searchBar {
+	position: absolute;
+	top: 5%;
+	right: 2%;
+}
+
+img {
+	max-width: 100%;
+	height: 700px;
+	position:  absolute;
+	top: 10%;
+	left: 10%;
+}
+
+#logo {
+	font-style: italic;
+	font-size: 18px;
+}
+
+#logo {
+	background-color: gray;
+}
+
+#whole {
+	width: 100%;
+}
+
+.circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%; 
+	background-color: blue; 
+	position: absolute;
+	top: 50%;
+	right: 50%;
+
+}
+
