@@ -1,15 +1,22 @@
-#Page{
-	background-color: #eaf8ff ;
+
+#Title {
+	font-style: italic;
+	font-size: 18px;
+	background-color: gray;
 }
-h1{
-	color: #a9c5f2 ;
+
+#navBar {
+	position: absolute;
+	right: 5%;
+	top: 4.5%;
 }
-h3{
-	color: #a9c5f2;
+
+
+#text {
+	border: solid 1px;
 }
-body{
-	background-color: #ebddff;
-}
-p{
-	color: #a3daff;
+
+img {
+  max-width: 40%; 
+
 }
