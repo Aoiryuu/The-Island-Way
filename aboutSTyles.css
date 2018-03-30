@@ -11,7 +11,12 @@
     right: 5%;
     top: 4.5%;
 }
-
+h3{
+    font-size: 200%
+}
+p{
+    font-size: 150%
+}
 #text {
     margin-right: 10%;
     margin-left: 10%;
@@ -50,4 +55,10 @@
 }
 .dropdown:hover .dropbtn {
     background-color: silver;
+}
+.name{
+    font-size: 100%;
+}
+.grade{
+    font-size: 75%;
 }

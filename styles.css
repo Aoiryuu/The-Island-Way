@@ -15,7 +15,15 @@
 #text {
 	border: solid 1px;
 }
-
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
 img {
   max-width: 40%; 
   border: solid 1px;
