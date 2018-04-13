@@ -1,18 +1,35 @@
 body{
 	background-color: #a0d6b4;
 }
-#logo {
+
+#whole{
+	margin-top: ;
+	
+	
+
+}
+#title {
+	margin-bottom: 25px;
 	text-align: left;
-	font-size: 50px;
+	font-size: 18px;
 	line-height: 5px;
+  	background-color: gray;
+}
+#whole{
+	width: 100%;
 }
 img {
+	margin-right: 50px;
 	margin-top: 50px;
 	max-width: 100%;
-	height: 650px;
-	position:  absolute;
+	height: 80%;
+	position: absolute;
 	top: 10%;
 	left: 10%;
+}
+.oahu{
+	width: 40%;
+	height: 40%;
 }
 
 .column{
@@ -35,17 +52,16 @@ img {
     font-size: 17px;
 
 }
-#abt{
 
+#abt{
 }
 	
-
 
 #whole {
 	width: 100%;
 }
 
-.circle {
+.circles {
 	width: 10px;
 	height: 10px;
 	border-radius: 100%; 
@@ -54,6 +70,19 @@ img {
 	top: 50%;
 	right: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .dropbtn {
     background-color: black;
     color: white;
