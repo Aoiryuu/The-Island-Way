@@ -66,18 +66,23 @@ p{
 #footer{
     border-style: inset;
     display: block;
-    width: 60%;
+    width: 50%;
     background-color: #90EE90;
     line-height: 30%;
     position: absolute;
-    bottom: 2;
-    margin-top: 10%;
-    margin-bottom: 200%;
-    margin-right: 100%;
+    bottom:1;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-right: 0%;
     margin-left: 5%;
     background-color: #ffffff; 
 }
 body {
     background-color: #a0d6b4;
 }
+.name {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 
