@@ -10,6 +10,7 @@ body{
     background-image:url('http://www.hear.org/starr/maps/stock/originals/oahu_outline_10_white.jpg' );
     position: relative;
     background-repeat: no-repeat;
+    margin-left: 80px;
 }
 
 .column{
