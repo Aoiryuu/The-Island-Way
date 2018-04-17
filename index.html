@@ -23,36 +23,31 @@
             </div>
         </div>    
 
-        <div class="row">
-  <div class="column">
-    <h2>Home</h2>
-    <p><a href="about.html" id="abt">About</p>
-  </div>
+    <div class="row">
+        <div class="column">
+        <h2>Home</h2>
+        <p><a href="about.html" id="abt">About</p>
+        </a>
+        </div>
+     <div class="circle" onclick= "showData('Waipahu')">
+    </div>
+
+    </div>
 
         <div id="oahu"> 
-         <img src ="http://www.hear.org/starr/maps/stock/originals/oahu_outline_10_white.jpg"></img> 
+
         </div>
 
         
-         <a>
-            <div class="circle" onclick="getElementById('Waipahu').style.display = 'block'";>
-            </div>
-        </a>
-       
-
-         <footer id="footer">
+    <footer id="footer">
         <h3>The Island Way</h3>   
         <p>More Info<br>
     </footer>
-        
-
-        
-    </div>
     <div id = Waipahu>
         <div>
             <h3>Waipahu</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('Waipahu') "></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -642,7 +637,7 @@
         <div>
             <h3></h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity(" ></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -674,4 +669,5 @@
         
         </div>
     </div>
-
+    <script src = "app.js"></script>
+</body>
