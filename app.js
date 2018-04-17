@@ -1,9 +1,5 @@
 
 var points = [
-
-
-
-
 	{id:a1 ,
 
 		city: "Waipahu"},
@@ -132,8 +128,6 @@ var points = [
 
 
 ]
-
-The Island Way is a site that is simple and easy to use for research about the Hawaiian island of Oahu.
 console.log(points)
 var currentCity = null;
 function showData(city){
