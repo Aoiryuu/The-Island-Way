@@ -12,7 +12,12 @@ body{
     background-repeat: no-repeat;
     margin-left: 80px;
 }
-
+#overlay{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
 .column{
 	border-style: solid;
 	align-self: left;
