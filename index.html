@@ -24,17 +24,145 @@
         </div>    
 
     <div class="row">
-        <div id="overlay"></div>
         <div class="column">
-        <h2>Home</h2>
-        <p><a href="about.html" id="abt">About</p>
-        </a>
+            <h2>Home</h2>
+            <p><a href="about.html" id="abt">About</p>
+            </a>
         </div>
-     <div class="circle" onclick= "showData('a1')">
-    </div>
+
+        <div id="waipahu" onclick= "showData('a1')">
+            <p class="tags">Waipahu</p>
+        </div>
+
+        <div id="pearlCity" onclick= "showData('a2')">
+            <p class="tags">Pearl City</p>
+        </div>
+
+        <div id="waimalu" onclick= "showData('a3')">
+            <p class="tags">Waimalu</p>
+        </div>
+
+        <div id="whitmore" onclick= "showData('a4')">
+            <p class="tags">Whitmore Village</p>
+        </div>
+
+        <div id="ahuimanu" onclick= "showData('a5')">
+            <p class="tags">Ahuimanu</p>
+        </div>
+
+        <div id="waikane" onclick= "showData('a6')">
+            <p class="tags">Waikane</p>
+        </div>
+
+        <div id="heeia" onclick= "showData('a7')">
+            <p class="tags">Heeia</p>
+        </div>
+
+        <div id="waimanalo" onclick= "showData('a8')">
+            <p class="tags">Waimanalo</p>
+        </div>
+
+        <div id="waialua" onclick= "showData('a9')">
+            <p class="tags">Waialua</p>
+        </div>
+
+        <div id="wahiawa" onclick= "showData('a10')">
+            <p class="tags">Wahiawa</p>
+        </div>
+
+        <div id="maunawili" onclick= "showData('a11')">
+            <p class="tags">Maunawili</p>
+        </div>
+
+        <div id="aiea" onclick= "showData('a12')">
+            <p class="tags">Aiea</p>
+        </div>
+
+        <div id="Haleiwa" onclick= "showData('a13')">
+            <p class="tags">Haleiwa</p>
+        </div>
+
+        <div id="Nanakulii" onclick= "showData('a14')">
+            <p class="tags">Nanakulii</p>
+        </div>
+
+        <div id="Makaha" onclick= "showData('a15')">
+            <p class="tags">Makaha</p>
+        </div>
+
+        <div id="Waianae" onclick= "showData('a16')">
+            <p class="tags">Waianae</p>
+        </div>
+
+        <div id="Ewa" onclick= "showData('a17')">
+            <p class="tags">Ewa</p>
+        </div>
+
+        <div id="MililaniMauka" onclick= "showData('a18')">
+            <p class="tags">Mililani Mauka</p>
+        </div>
+
+        <div id="Kapolei" onclick= "showData('a19')">
+            <p class="tags">Kapolei</p>
+        </div>
+
+        <div id="Kahuku" onclick= "showData('a20')">
+            <p class="tags">Kahuku</p>
+        </div>
+
+        <div id="Laie" onclick= "showData('a21')">
+            <p class="tags">Laie</p>
+        </div>
+
+        <div id="Mokuleia" onclick= "showData('a22')">
+            <p class="tags">Mokuleia</p>
+        </div>
+
+        <div id="Kailua" onclick= "showData('a23')">
+            <p class="tags">Kailua</p>
+        </div>
+
+        <div id="Hauula" onclick= "showData('a24')">
+            <p class="tags">Hauula</p>
+        </div>
+
+        <div id="Honolulu" onclick= "showData('a25')">
+            <p class="tags">Honolulu</p>
+        </div>
+
+         <div id="Kaneohe" onclick= "showData('a26')">
+            <p class="tags">Kaneohe</p>
+        </div>
+
+         <div id="Kaawa" onclick= "showData('a27')">
+            <p class="tags">Kaawa</p>
+        </div>
+
+         <div id="Punaluu" onclick= "showData('a28')">
+            <p class="tags">Punaluu</p>
+        </div>
+
+         <div id="Pupukea" onclick= "showData('a29')">
+            <p class="tags">Pupukea</p>
+        </div>
+
+         <div id="Kahaluu" onclick= "showData('a30')">
+            <p class="tags">Kahaluu</p>
+        </div>
+
+         <div id="MililaniTown" onclick= "showData('a31')">
+            <p class="tags">Mililani Town</p>
+        </div>
+
+        
 
     </div>
-       
+
+        <div id="oahu"> 
+
+        </div>
+
+        
     <footer id="footer">
         <h3>The Island Way</h3>   
         <p>More Info<br>
@@ -74,7 +202,7 @@
         <div>
             <h3>Pearl CIty</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a2')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -108,7 +236,7 @@
         <div>
             <h3>Waimalu</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a3')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -144,7 +272,7 @@
         <div>
             <h3>Whitmore Village</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a4')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -175,7 +303,7 @@
         <div>
             <h3>Ahuimanu</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a5')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -209,7 +337,7 @@
         <div>
             <h3>Waikane</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a6')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -243,7 +371,7 @@
         <div>
             <h3>Heeia</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a7')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -275,7 +403,7 @@
         <div>
             <h3>Waimanalo</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a8')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -311,7 +439,7 @@
         <div>
             <h3>Waialua</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a9')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -344,7 +472,7 @@
         <div>
             <h3>Wahiawa</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a10')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -380,7 +508,7 @@
         <div>
             <h3>Maunawili</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a11')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -416,7 +544,7 @@
         <div>
             <h3>Aiea</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a12')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -452,7 +580,7 @@
         <div>
             <h3>Haleiwa</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a13')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -488,7 +616,7 @@
         <div>
             <h3>Nanakulii</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a14')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -524,7 +652,7 @@
         <div>
             <h3>Makaha</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a15')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -560,7 +688,7 @@
         <div>
             <h3>Waianae</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a16')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -596,7 +724,7 @@
         <div>
             <h3>Ewa</h3>
         </div>
-        <div class="redcircle" onclick="getElementById('Waipahu').style.display = 'none'" ></div>
+        <div class="redcircle" onclick="hideCity('a17')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -633,6 +761,7 @@
         <div>
             <h3>Mililani Mauka</h3>
         </div>
+        <div class="redcircle" onclick="hideCity('a18')"></div>
         
 
                 <div id = "text">
@@ -670,7 +799,7 @@
         <div>
             <h3>Kapolei</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a19')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -706,7 +835,7 @@
         <div>
             <h3>Kahuku</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a20')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -742,7 +871,7 @@
         <div>
             <h3>Laie</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a21')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -779,7 +908,7 @@
         <div>
             <h3>Mokuleia</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a22')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -814,7 +943,7 @@
         <div>
             <h3>Kailua</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a23')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -850,7 +979,7 @@
         <div>
             <h3>Hauula</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a24')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -886,7 +1015,7 @@
         <div>
             <h3>Honolulu</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a25')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -923,7 +1052,7 @@
         <div>
             <h3>Kaneohe</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a26')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -959,7 +1088,7 @@
         <div>
             <h3>Kaawa</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a27')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -993,7 +1122,7 @@
         <div>
             <h3>Punaluu</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a28')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1023,7 +1152,7 @@
         <div>
             <h3>Pupukea</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a29')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1056,7 +1185,7 @@
         <div>
             <h3>Kahaluu</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a30')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1090,7 +1219,7 @@
         <div>
             <h3>Mililani Town</h3>
         </div>
-        
+        <div class="redcircle" onclick="hideCity('a31')"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1118,5 +1247,6 @@
         
         </div>
     </div>
+
 <script src="app.js"></script>
 </body>
