@@ -7,17 +7,14 @@ body{
 	line-height: 5px;
 }
 .row{
-    background-image:url('http://www.hear.org/starr/maps/stock/originals/oahu_outline_10_white.jpg' );
+    background-image:url('https://jpl.jpl.nasa.gov/spaceimages/images/largesize/PIA14898_hires.jpg' );
     position: relative;
+    background-size: 110% 100%;
     background-repeat: no-repeat;
     margin-left: 80px;
+    
 }
-#overlay{
-    display: none;
-    position: fixed;
-    z-index: 2;
-    background-color: white;
-}
+
 .column{
 	border-style: solid;
 	align-self: left;
@@ -43,15 +40,329 @@ body{
 	width: 100%;
 }
 
-.circle {
+
+
+
+
+
+#waipahu {
 	width: 10px;
 	height: 10px;
 	border-radius: 100%; 
 	background-color: blue; 
 	position: absolute;
-	top: 50%;
-	right: 50%;
+    top: 65%;
+    right: 55%;	
 }
+
+#pearlCity {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 60%;
+    right: 45%; 
+}
+
+#waimalu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 67%;
+    right: 44%; 
+}
+
+#whitmore {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 44%;
+    right: 52%; 
+}
+
+#ahuimanu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 59%;
+    right: 26%; 
+}
+
+#waikane {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 47%;
+    right: 33%; 
+}
+
+#heeia {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 60%;
+    right: 29%; 
+}
+
+#waimanalo {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 78%;
+    right: 17%; 
+}
+
+#waialua {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 33%;
+    right: 70%; 
+}
+
+#wahiawa {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 50%;
+    right: 53%; 
+}
+
+#maunawili {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 70%;
+    right: 25%; 
+}
+
+#aiea {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 77%;
+    right: 40%; 
+}
+
+#Haleiwa {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 32%;
+    right: 63%; 
+}
+
+#Nanakulii {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 62%;
+    right: 67%; 
+}
+
+#Makaha {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 47%;
+    right: 73%; 
+}
+
+#Waianae {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 57%;
+    right: 66%; 
+}
+
+#Ewa {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 78%;
+    right: 50%; 
+}
+
+#MililaniMauka {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 55%;
+    right: 54%; 
+}
+
+#Kapolei {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 80%;
+    right: 60%; 
+}
+
+#Kahuku {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 10%;
+    right: 46%; 
+}
+
+#Laie {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 15%;
+    right: 43%; 
+}
+
+#Mokuleia {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 31%;
+    right: 68%; 
+}
+
+#Kailua {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 62%;
+    right: 21%; 
+}
+
+#Hauula {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 22%;
+    right: 42%; 
+}
+
+#Honolulu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 85%;
+    right: 30%; 
+}
+
+#Kaneohe {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 63%;
+    right: 27%; 
+}
+
+#Kaawa {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 38%;
+    right: 33%; 
+}
+
+#Punaluu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 27%;
+    right: 40%; 
+}
+
+#Pupukea {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 16%;
+    right: 54%; 
+}
+
+#Kahaluu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 55%;
+    right: 32%; 
+}
+
+#MililaniTown {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 50%;
+    right: 25%; 
+}
+
+
+
+
+
+
+
+
+
 .redcircle {
     width: 10px;
     height: 10px;
@@ -97,12 +408,17 @@ body{
 #footer{
     border-style: inset;
     display: block;
-   	width: 90%;
+   	width: 93.25%;
    	background-color: #90EE90;
    	line-height: 30px;
-  	position: absolute;
-  	bottom: 0;
+  	position: relative;
+  	top: 115%;
+    left: 6.25%;
+}
 
+.tags {
+    color: white;
+    font-size: 12px
 }
 
 #a1{
