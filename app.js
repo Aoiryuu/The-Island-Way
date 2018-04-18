@@ -1,4 +1,3 @@
-
 var points = [
 
 
@@ -133,18 +132,13 @@ var points = [
 
 ]
 
-
 console.log(points)
 var currentCity = null;
 function showData(city){
-	document.getElementById("overlay").style.display="block"
-	document.getElementById("overlay").append(document.getElementById(city));
-	document.getElementById(city).style.display = "block"
+	//document.getElementById(currentCity).style.display = "none"
+	document.getElementById(city).style.display="block"
 	currentCity = city;
 }
 function hideCity(currentCity){
 	document.getElementById(currentCity).style.display = "none"
-	document.getElementById("overlay").innerHTML= "";
-	document.getElementById("overlay").style.display="none"
 }
-
