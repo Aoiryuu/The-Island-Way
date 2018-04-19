@@ -127,18 +127,21 @@ var points = [
 
 		city:"Mililani Town" },
 
-	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	
-
-
+	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
 ]
 
-console.log(points)
 var currentCity = null;
 function showData(city){
-	//document.getElementById(currentCity).style.display = "none"
-	document.getElementById(city).style.display="block"
 	currentCity = city;
+	document.getElementById("overlay").style.display="block";
+	document.getElementById("overlay").append(document.getElementById(city));
+	document.getElementById(city).style.display = "block";
 }
 function hideCity(currentCity){
 	document.getElementById(currentCity).style.display = "none"
+	document.getElementById("whole").append(document.getElementById(currentCity));
+
+	document.getElementById("overlay").innerHTML= "";
+	document.getElementById("overlay").style.display="none";
+
 }
