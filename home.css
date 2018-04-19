@@ -1,6 +1,15 @@
 body{
 	background-color: #a0d6b4;
 }
+
+#overlay{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    background-size: 110% 100%;
+}
+
 #logo {
 	text-align: left;
 	font-size: 50px;
