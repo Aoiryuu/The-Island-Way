@@ -3,7 +3,8 @@
 #Title {
     font-style: italic;
     font-size: 18px;
-    background-color: gray;
+    background-color: silver;
+    border: solid;
 }
 
 #navBar {
@@ -64,20 +65,22 @@ p{
     font-size: 75%;
 }
 #footer{
-    border-style: inset;
-    display: block;
-    width: 50%;
-    background-color: #90EE90;
-    line-height: 30%;
-    position: absolute;
-    bottom:1;
-    margin-top: 10%;
-    margin-bottom: 50%;
-    margin-right: 50%;
-    margin-left: 5%;
-    background-color: #ffffff; 
+    border-style: solid;
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
 }
 body {
     background-color: #a0d6b4;
 }
-s
+body{
+    background-image: url("https://www.hirenethawaii.com/vosnet/Handlers/Content/Images/Image.ashx?splash/rwd/mainpic-01.png"), url("https://www.shape.com/sites/shape.com/files/honolulu-fb_0.jpg");
+    background-color: #cccccc;
+}
+
+
+
+
