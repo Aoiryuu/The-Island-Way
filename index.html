@@ -1,86 +1,1259 @@
-#Title {
-    font-style: italic;
-    font-size: 60px;
-    background-color: silver;
-    border: solid;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Island Way</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+        <div id = "Title">
+                <div id= "logo">
+                    <h1>The Island way</h1>
+                      
+                </div><div class="dropdown">
+                <button class="dropbtn">=</button>
+                <div class="dropdown-content">
+                    <a href="about.html">About</a>
+                 </div>
+                </div> 
+</div>
+                  
+    <div id="whole">
+        <div id="top">
+            
+                        
+            
+
+                <div id="topNav">
+
+            </div>
+        </div>    
+
+    <div class="row">
+        <div id="overlay"></div>
+        <div class="column">
+            <h2>Home</h2>
+            <p><a href="about.html" id="abt">About</p>
+            </a>
+        </div>
+
+        <div id="waipahu" onclick= "showData('a1')">
+            <p class="tags">Waipahu</p>
+        </div>
+
+        <div id="pearlCity" onclick= "showData('a2')">
+            <p class="tags">Pearl City</p>
+        </div>
+
+        <div id="waimalu" onclick= "showData('a3')">
+            <p class="tags">Waimalu</p>
+        </div>
+
+        <div id="whitmore" onclick= "showData('a4')">
+            <p class="tags">Whitmore Village</p>
+        </div>
+
+        <div id="ahuimanu" onclick= "showData('a5')">
+            <p class="tags">Ahuimanu</p>
+        </div>
+
+        <div id="waikane" onclick= "showData('a6')">
+            <p class="tags">Waikane</p>
+        </div>
+
+        <div id="heeia" onclick= "showData('a7')">
+            <p class="tags">Heeia</p>
+        </div>
+
+        <div id="waimanalo" onclick= "showData('a8')">
+            <p class="tags">Waimanalo</p>
+        </div>
+
+        <div id="waialua" onclick= "showData('a9')">
+            <p class="tags">Waialua</p>
+        </div>
+
+        <div id="wahiawa" onclick= "showData('a10')">
+            <p class="tags">Wahiawa</p>
+        </div>
+
+        <div id="maunawili" onclick= "showData('a11')">
+            <p class="tags">Maunawili</p>
+        </div>
+
+        <div id="aiea" onclick= "showData('a12')">
+            <p class="tags">Aiea</p>
+        </div>
+
+        <div id="Haleiwa" onclick= "showData('a13')">
+            <p class="tags">Haleiwa</p>
+        </div>
+
+        <div id="Nanakulii" onclick= "showData('a14')">
+            <p class="tags">Nanakulii</p>
+        </div>
+
+        <div id="Makaha" onclick= "showData('a15')">
+            <p class="tags">Makaha</p>
+        </div>
+
+        <div id="Waianae" onclick= "showData('a16')">
+            <p class="tags">Waianae</p>
+        </div>
+
+        <div id="Ewa" onclick= "showData('a17')">
+            <p class="tags">Ewa</p>
+        </div>
+
+        <div id="MililaniMauka" onclick= "showData('a18')">
+            <p class="tags">Mililani Mauka</p>
+        </div>
+
+        <div id="Kapolei" onclick= "showData('a19')">
+            <p class="tags">Kapolei</p>
+        </div>
+
+        <div id="Kahuku" onclick= "showData('a20')">
+            <p class="tags">Kahuku</p>
+        </div>
+
+        <div id="Laie" onclick= "showData('a21')">
+            <p class="tags">Laie</p>
+        </div>
+
+        <div id="Mokuleia" onclick= "showData('a22')">
+            <p class="tags">Mokuleia</p>
+        </div>
+
+        <div id="Kailua" onclick= "showData('a23')">
+            <p class="tags">Kailua</p>
+        </div>
+
+        <div id="Hauula" onclick= "showData('a24')">
+            <p class="tags">Hauula</p>
+        </div>
+
+        <div id="Honolulu" onclick= "showData('a25')">
+            <p class="tags">Honolulu</p>
+        </div>
+
+         <div id="Kaneohe" onclick= "showData('a26')">
+            <p class="tags">Kaneohe</p>
+        </div>
+
+         <div id="Kaawa" onclick= "showData('a27')">
+            <p class="tags">Kaawa</p>
+        </div>
+
+         <div id="Punaluu" onclick= "showData('a28')">
+            <p class="tags">Punaluu</p>
+        </div>
+
+         <div id="Pupukea" onclick= "showData('a29')">
+            <p class="tags">Pupukea</p>
+        </div>
+
+         <div id="Kahaluu" onclick= "showData('a30')">
+            <p class="tags">Kahaluu</p>
+        </div>
+
+         <div id="MililaniTown" onclick= "showData('a31')">
+            <p class="tags">Mililani Town</p>
+        </div>
+
+        
+
+    </div>
+
+        <div id="oahu"> 
+
+        </div>
+
+        
+    <footer id="footer">
+        <h3>The Island Way</h3>   
+        <p>More Info<br>
+    </footer>
+    <div id = "a1">
+        <div>
+            <h3>Waipahu</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a1') "></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Waipahu means to burst or gush forth. It was named this was because Waipahu had spring waters that gushed towards Waipahu and the natives found it highly appealing. It had an abundance of water that brought out gold more than a hundred years ago. Which started in 1845, sugar plantations, people from other places came to work on these plantations. Far away like, Japan, China, Philippines, and islands near Oahu.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>42,864</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Manulele Distillers - Ko Hana Rum<br>Hawaii Plantation Village<br> Waikele Premium Outlets <br>Royal Kunia Country Club<br>
+                        Pearl Harbor National Wildlife
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>What was once a sugar plantation is now a place full of parks and recreational centers. In addition, Waipahu are close to many resorts such as JW Marriott Ihilani Resort. Waipahu has an approximate area of 2.8 sq mi.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>                                                      
+    </div>
+    <div id = "a2">
+        <div>
+            <h3>Pearl CIty</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a2')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Before the year 1892 Pearl city was known as yellow creek. The name of pearl city comes from a story that consist of a man finding  pearls which he sold to build a new house. The railroads were a big part to pearl city’s growth. The school was built in 1912 but it has many additions and has been remodeled multiple time.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>47,698</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Pearl Harbor<br>
+                           Pacific Aviation Museum Pearl Harbor <br>
+                           Ford Island<br>
+                           Ko’olau Range<br>
+                           USS Oklahoma Memorial<br>
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Pearl city is a very residential are with houses everywhere. Besides residences Pearl city still has plenty of stores and entertainment places.According to an article on the U.S’s cities Pearl city is the 3 happiest of them all.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+     <div id = "a3">
+        <div>
+            <h3>Waimalu</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a3')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>In the beginning Waimalu was a place that was mainly marshes. It is said that it was first occupied in the 500 AD. Even though there was a good amount of rain the land was not cultivated, chich leads to no agriculture. During the ancient times Waimalu was the capital of the area where kings lived. An event that significantly changed Waimalu was WWII. For example the land was bought by the government to expand military bases. Waimalu was also a commercial district so it had a good influence on trade for hawaii.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>13,730</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Waimalu plaza<br> 
+                           Pearlridge<br>
+                           USS Arizona Memorial<br> 
+                           USS Bowfin<br>
+                           Pearl Harbor<br>
+                           Aloha Stadium<br>
+                           Kea’iwa Heiau State Reserve<br>
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Waimalu is a rural place. It is also a part of the Honolulu county. Its is located to the east of Pearl city and the west of Aiea heights. There are multiple schools located within Waimalu. For the people in waimalu commuting is mostly done by driving alone. The ethnic group that is the majority in waimalu is Asian.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+<div id = 'a4'>
+        <div>
+            <h3>Whitmore Village</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a4')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>As a smaller county within Wahiawa, Whitmore village has not had much of a history of its own, therefore all it's history shall be the same as wahiawa. During the 14th century, this area was considered a sacred place. Mothers with royal blood would give birth here to keep the status of their children. It was also a place where Hawaiian warriors would train. The city was later founded in 1898 and it’s name means the place of noise. It was considered am military place. It was once the pineapple capital of the world and now, its best known for its pineapple.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>4,499</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Ali’i agriculture farms<br>
+                           Kukaniloko birthing stones<br>
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Whitmore village is located north of wahiawa. The Hawaiian Pineapple Company consolidates its distant camps by designing plans for Whitmore Village. The ethnic group that is the majority is asian. About half of whitmore village is not rural.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+<div id = "a5">
+        <div>
+            <h3>Ahuimanu</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a5')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Ahuimanu is a small part of Kaneohe and has not had much of a history of it's own therefore it's history shall be the same as kaneohe. The name of kaneohe comes from an ancient hawaiian story of a local lady calling her husband's cruelty to the sharp edge of bamboo when it is cut which lead to the name of bamboo man. It used to be an agriculture area. The leading crops of kaneohe started with taro and sweet potato then it became rice later becoming pineapples ending with bananas. Even though the land around kaneohe bay were being changed somehow the reef stayed resilient </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>8,810</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Ahuimanu trailhead<br>
+                           Puu maelieli trail/pillbox<br>
+                           Kahaluu Beach<br>
+                           He’eia State Park<br>
+                           Mokoli’i Beach<br>
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Ahuimanu is in the honolulu county. In the Hawaiian the name means 'cluster of birds'. The ahuimanu stream and the kahalu’u stream runs through the land. Ahuimanu elementary school is located in the south part of ahuimanu. The major ethnic groups is between asian and mixed between two groups</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+<div id = "a6">
+        <div>
+            <h3>Waikane</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a6')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Waikane once had fertile fields but has been reduced to a no man's land after the united states military used it to test ordnance(Explosives)</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>778</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Nga Manu Nature Reserve<br>
+                           Shoreline Cinema<br>
+                           Peka Peka Beach<br>
+                           Hemi Matenga Memorial Park Scenic Reserve<br>
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Waikane is very uncultivated and green. For example there are very few farmlands located on this land. To continue on waikane the majority ethnic group is two or more and native hawaiian or pacific islander only. There is one elementary school located in this piece of land. Another thing is that waikane stream passes through.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+<div id = "a7">
+        <div>
+            <h3>Heeia</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a7')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>In 1838 High Chief Abner Paki used the waters there for fish ponds. These fish ponds have a very big cultural significance to the Hawaiian People. In 1965 the fish ponds were destroyed due to a flood but Mary Brooks was able to revive it using a mixture of the hawaiian and western Techniques.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>4,963</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Byodo-In Temple<br>
+                           He’eia State Park<br>
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>About half of Heeia is still uncultivated. The other half is majority just housing.To continue Windward mall is south of heeia. There are two valleys that is located within heeia. The names of the two valleys are Ha’iku and Iolekaa. Heeia is located southeast of Ahuimanu.  There is a intermediate school located within the area. </p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+<div id = "a8">
+        <div>
+            <h3>Waimanalo</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a8')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Waimanalo means potable water in Hawaiian. This name came from the various ponds that were needed for irrigation. Waimanalo is known for being rich with agriculture. Also know for its local flavor. Tons of plant nurseries are found in the area.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>5,451</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Sea Life Park<br>
+                           Waimanalo Beach<br>
+                           Bellows Field Beach Park<br>
+                           Makapu’u Beach<br>
+                           Hawaii Paragliding<br>
+                           Shark Tank Scuba<br>
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Waimanalo is more on the eastern part of Oahu. This place contains high amount of agriculture in its valley. These include plantations, ranches and nurseries. Waimanalo has an approximate area of 4.4 sq mi.  </p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+<div id = "a9">
+        <div>
+            <h3>Waialua</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a9')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Waialua was originally an  ancient district known as moku. This once was a sugar mill town. Many Asian immigrants were assign to work here. Sadly, during 1980-1990, the rate of which sugar was produced was too costly which resulted in these sugar businesses collapsing. .</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>3,850</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Mokuleia Beach Park<br>
+                           Aweoweo Beach Park<br>
+                           Oahu Parachute Center<br>
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Waialua is located more in the north side of Oahu. There are a few coffee and banana crops. Its sugar mill is the center of the town that represents its past history. Waialua has an approximate area of 2.4 sq mi. Directly East of this part of land is a stream.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a10'>
+        <div>
+            <h3>Wahiawa</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a10')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>During the 14th century, this area was considered a sacred place. Mothers with royal blood would give birth here to keep the status of their children. It was also a place where Hawaiian warriors would train. The city was later founded in 1898 and it’s name means the place of noise. It was considered am military place. It was once the pineapple capital of the world and now, its best known for its pineapple.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>17,821 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Dole Pineapple Pavilion<br>
+                           Wahiawa Botanical Garden<br>
+                           Green World Coffee Farms<br>
+                           Kukaniloko Birthing Stones<br>
+                           Wahiawa Botanical Garden<br>
+                           Tropic Lightning Museum<br>
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Wahiawa is near some military places and plantations. It is engulfed by three sides of Kaukonahua (Lake Wilson). It was once surrounded by military bases and agricultural fields. This city is known for the Telecommunications Area Master Station and the U.S. Navy’s Naval Computer. Wahiawa has a total area of 2.4 sq mi.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a11'>
+        <div>
+            <h3>Maunawili</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a11')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>The name maunawili in hawaiian is twisted mountains. The natural springs of maunawili fed a network of many streams within the valley. The Maunawili ranch was one of the largest cattle operations on the windward side during the 1900s. During the 1920s sugar planters were growing sugar in the Maunawili valley. The land in maunawili changed owners multiple times first it went to business owners then to the first japanese farmers.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>2,040 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Olomana ridge<br>
+                           Maunawili park<br>
+                           Maunawili falls<br>
+                           Nu’uanu Pali <br>
+                           Kawai Nui Marsh<br>
 
 
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Maunawili is a small town in the ko’olau district of the island of Oahu.  Maunawili is a hiking area next to the pali lookout hiking trail.  Maunawili is a beautiful sight place where to watch the rain come down from the mountain to make beautiful waterfalls.</p>
+                    </div>
+                </div>
 
-#navBar {
-    position: absolute;
-    right: 5%;
-    top: 4.5%;
-}
-h3{
-    font-size: 200%
-}
-p{
-    font-size: 150%
-}
-#text {
-    margin-right: 10%;
-    margin-left: 10%;
-    border: solid 1px;
-    padding: 10% 10%;
-    background-color: #ffffff;
-}
-.box{
-    text-align: center;   
-}
-.dropbtn {
-    background-color: black;
-    color: white;
-    padding: 200%;
-    font-size: 100%;
-    border: none;
-    border-radius: 10px;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 200%;
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {background-color: gray}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown:hover .dropbtn {
-    background-color: silver;
-}
-.name{
-    font-size: 100%;
-}
-.grade{
-    font-size: 75%;
-}
-#footer{
-    border-style: solid;
-    margin-top: 100px;
-    width: 90%;
-    margin: auto;
-    background-color: white;
-    text-align: center;
-}
-}
-body {
-    background-color: #a0d6b4;
-}
-body{
-    background-image: url("https://www.hirenethawaii.com/vosnet/Handlers/Content/Images/Image.ashx?splash/rwd/mainpic-01.png"), url("https://www.shape.com/sites/shape.com/files/honolulu-fb_0.jpg");
-    background-color: #cccccc;
-}
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a12'>
+        <div>
+            <h3>Aiea</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a12')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p> The name Aiea came from a small Hawaiian bush that was once used to bind pili together. Hawaiian Plantation Company made some sugar plantation in Aiea during 1898. In 1898, a railroad was put together that instigated the birth of Aiea. The town later developed when the majority of  sugar plantations were terminated after World War 2. Aiea sugar business finally came to an end in 1996.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>9,338 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>USS Arizona Memorial<br>
+                           Aloha Stadium<br>
+                           Aiea Heiau<br>
+                           Hawaii Escape Challenge<br>
+                           Aiea Loop Trail<br>
+                           Pearlridge Shopping Center<br>
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Aiea is on the Westside of Oahu and consists of industrial and commercial businesses. It is approximately 1.8 sq mi wide. Most of Aieas residential area is located on a small mountain/hill. Aiea is also area where most of  schools go camping at the camp herman area.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a13'>
+        <div>
+            <h3>Haleiwa</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a13')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>The name of haleiwa comes from two words hale which is home and iwa which is a bird, this leads to the name of house of the frigate bird. Haleiwa then and still now is a surf town. The haleiwa hotel was a landmark that brought many. During the 1950s is when the north shore side started to become more of a surfing place.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>3,970 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Waimea bay<br>
+                           Laniakea beach<br>
+                           Haleiwa alii beach park<br>
+                           Sunset Beach Park <br>
+                           Pupukea Beach Park<br>
 
 
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Haleiwa is a surfing spot. You can go canoeing, and paddling. There is shave ice for you to eat and relax. It's a place blooming with the ocean and beaches. A great place to visit and relax with some nice sunset views and enjoyable beaches. It has an approximate area of  3.0 sq mi. It’s quite an attraction for tourists due to its old history being preserved and its recreational sites.</p>
+                    </div>
+                </div>
 
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a14'>
+        <div>
+            <h3>Nanakulii</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a14')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Nanakuli means to pretend to be deaf. Old Hawaiian ideals once encouraged natives to give food to travelers. This area lacked good agriculture. The natives didn’t have much to give and in an act to hide that embarrassment, they acted like they were deaf. People then thought of that area being filled with deaf people, thus giving its name Nanakuli.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>12,661</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Nanakuli Beach Park<br> 
+                           Puu o Hulu<br> 
+                           Kalanianaole Beach Park<br>
+                           Ulehawa Beach Park<br>
+                           Black Rocks Nanakuli<br>                           
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Nanakuli is a small town located on the far west side of oahu. Although it is far it is not remote as it still has many shops and even beaches for people to go to.  Nanakuli is a 48 km land northwest of honolulu.  Nanakuli waves and currents are strong during the the winter times. And it is also a calm and favorite gathering according to the local residents in the area. </p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a15'>
+        <div>
+            <h3>Makaha</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a15')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>In the year of 1855 Makaha was bought by the james robinson firm. Makaha valley became a ranch, this ranch had animals and crops grown on it. During WWII there was ammunition stored within makaha. During the 1960s Makaha Shores, Makaha Valley Towers, Makaha Beach Cabanas, Makaha Surfside, Makaha Valley Plantation  were developed.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>8,278</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Makaha Beach Park<br>
+                           Yokohama Bay<br>
+                           Kea’au Beach Park<br> 
+                           Makua Kea’au Forest Reserve<br>
+                           Aki’s Beach<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Makaha is a town located in the western part of the northern half of oahu. It is known for its surfing waves and the fact that sea turtles annually return to that spot to spawn.  Makaha is a residential area and there are not really that much things in the makaha area it is mostly an area where people would like go to beach. </p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a16'>
+        <div>
+            <h3>Waianae</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a16')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Makaha is a town located in the western part of the northern half of oahu. It is known for its surfing waves and the fact that sea turtles annually return to that spot to spawn.  Makaha is a residential area and there are not really that much things in the makaha area it is mostly an area where people would like go to beach.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>13,177 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Ka’ala<br>
+                           Dolphin Star<br>
+                           Dolphin Excursions Snorkel Adventure<br>
+                           Wild Side Specialty Tours<br>
+                           EO Wai’anae Tours<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Waianae mountains contain fishing areas with high contents of fish. Waianae has an approximate area of 7 sq mi. This county was founded in 1907 and was incorporated as City and County of Honolulu.  Waianae is also home to reigning seariders which the school has one a championship in STN for the state of Hawaii.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a17'>
+        <div>
+            <h3>Ewa</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a17')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p> Ewa was once a bed of coral dried up and barren. In 1877 James Campbell who was a sugar cane plantation owner on Maui saw the potential of the land and bought 40,000 acres of land. Upon finding a way to supply water everything changed the old useless infertile soil became perfect for the sugar cane. Many years had passed and the plantation was booming to the point of need foreign immigrants</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>14,995 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>White Plains Beach<br>
+                           Ewa Beach Golf Club<br>
+                           Ewa Beach<br>
+                           Middle Loch<br>
+                           Laulani Community Park<br>
+                           One’ula Beach<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Ewa is located on Oahu’s west side. Its main demographic is asian. Ewa beach has an approximate area of 1.9 miles and about 25% of that is water. Its average high temperature is 84 .4.  Ewa Beach is also used to collect water data for the university of manoa as local high school students from the natural resources academy help out.  Ewa beach is also a housing area for the united states military that are stationed in Hawaii</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a18'>
+        <div>
+            <h3>Mililani Mauka</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a18')"></div>
+        
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>In the beginning Mililani mauka was mainly used for farmlands. In 1976 the H2 highway was made. This highway made a defining line that separated mililani town from mililani mauka. The mililani real estate was planned to be a higher end residence compared to other towns. </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>20,332 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Mililani mauka district park<br>
+                           Kipapa park<br>
+                           Kiteboarding Paradise Hawaii<br>
+                           Mililani Gulf Club<br>
+                           Mari’s Gardens<br>
+                           Hands In Motion Massage Therapy<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Mililani Mauka is adjacent to Miliani. This considered to be the newer area of Mililani.  It has an approximate area of 4.0 sq mi. If this area were to be isolated from its counterpart of Mililani it would have been ranked #1 Hawaii Town For Home Value Appreciation. This is due to its good housing quality at their given prices.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id ='a19'>
+        <div>
+            <h3>Kapolei</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a19')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>1955 was the year that james campbell long range “ewa master plan” was envisioned.  In 1850, James Campbell turned Kapolei from agriculture, to urban areas. When he came here, he bought a land on Oahu’s Ewa Plain, and drilled into the ground and found pure water reserve that made Hawaii start its sugar plantations. He started his plans to make the land an urban place, until his death. But his plans continued because of his will passed on to their heirs. When the year 1990 campbell estate breaks the ground on the city of kapolei. One year after kapolei first office complex was made. 2012 is when UH west oahu first opens in east kapolei.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>15,186 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Aulani<br> 
+                           Wet N Wild Hawaii<br>
+                           Ko Olina Beach Park <br>
+                           Kapolei Regional Park<br>
+                           Coral Crater Adventure Park<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Kapolei is a Urban area on oahu with man houses for residents but also having many businesses. Kapolei is located towards the west side and it has many things to entertain its residents.  Kapolei is also still a area in development in hawaii the schools in kapolei like the high school was made like a few years ago.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a20'>
+        <div>
+            <h3>Kahuku</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a20')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p> Kahuku means the projection in Hawaiian. It got its name by it having the northernmost point of land on the island of Oahu. This land was once desolated and obsolete, but it later flourished into a highly agriculture city. With this the population increased and the city continued to grow. In 1971, Kahuku Sugar Mill closed and now is know as a tourist attraction.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>2,614</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Turtle Bay<br>
+                           Keana Farms<br>
+                           Gunstock Ranch<br>
+                           Turtle Bay Resort Horse Riding<br>
+                           Kahuku Farms<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Has a high amount of agriculture. Kahuku has an approximate area of 2.3 sq mi. Kahuku is located in the far north and is mostly a residential area that has many beach fronts. There are sparse amounts of commercial businesses mainly just mom and pop shops.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a21'>
+        <div>
+            <h3>Laie</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a21')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>in 1864 the land was bought by mormon missionaries in 1864. The polynesian cultural center was a project of the church. To continue another place located on this land is brigham young university.  Laie temple is one of the main landmarks of laie, it was built in november 1919. This temple attracts about 100,000 people annually.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>6,138</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Gunstock Ranch<br> 
+                           Ha - Breath of Life<br>
+                           Laie Point State Wayside Park<br>
+                           Malaekahana State Recreation Area<br> 
+                           Polynesian Cultural Center<br> 
+                           Kokololio Beach Park<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Located in the north, east of kahuku, Laie is another small town between major cities. It is considered the largest mormon community in oahu. They have their own temple which was built in 1919. It is historically known as “A Place of Refuge”. </p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a22'>
+        <div>
+            <h3>Mokuleia</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a22')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Mokuleia is a smaller part of wailua and has not been aroung long enough to have its own history so it shares its history with all of wailua. Waialua was originally an  ancient district known as moku. This once was a sugar mill town. Many Asian immigrants were assign to work here. Sadly, during 1980-1990, the rate of which sugar was produced was too costly which resulted in these sugar businesses collapsing</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>1,811 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Kealia Trail<br>
+                           Kaena Point<br> 
+                           Mokuleia Beach Park<br>
+                           Kaena Point Trail<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>Located at the western end of Farrington Highway. Main demographic is caucasian. It is considered apart of waialua.  It is also a beach park on the north shore of waialua.  Mokuleia also has shallow reefs which attracts swimmers, surfers, kite and windsurfers year around.  Mokuleia also has a lot of beach access spot that are mainly popular to surfers. </p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a23'>
+        <div>
+            <h3>Kailua</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a23')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p> in the 1940s is when kailua was being used as sugarcane to rice to taro farms which eventually led to the land being primarily for cattle. When WWII came kailua changed, portions were sold to the government to build expansions to naval bases. In 1942 the cattle raising operations were shut down completely. In 1947 the first bowling alley and supermarket in hawaii was made in kailua.
+</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>38,635 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Kailua Beach Park<br> 
+                           Na Mokulua<br>
+                           Kane ohe Bay<br>
+                           Lanaikai Beach<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Kailua is in the north east of oahu. It is located on the beach front. Many consider it to have a very beautiful view. Kailua is the 5th most populated city in oahu. Kailua means “two seas” because it has two lagoons in the district that runs through kailua bay.  Kailua is known for the ultimate beach town as the locals have said</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a24'>
+        <div>
+            <h3>Hauula</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a24')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>In Hawaiian, Hauula means red  Hibiscus. Used to be used for small scale sugarcane farming.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>4,148 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Polynesian Cultural Center<br>
+                           Hauula Loop Trail<br>
+                           Pounder’s Beach<br> 
+                           Polynesian Cultural Center<br> 
+                           Mahina Hawaii<br> 
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>  Hauula has an approximate area of 1.9 sq mi. Hauula is much like the rest of the beachfront communities, it doesn't have much modern influences. In place of modern entertainment hauula offers the beach and many hiking trails.  Hauula is a fringing reef that extends off the shoreline of oahu.  Hau ala is the home where polynesian cultural center is located that attracts tourist to learn about the polynesians in the pacific.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a25'>
+        <div>
+            <h3>Honolulu</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a25')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>:Early on, it was found by other explorers until Captain James Cook came. It set harbor in Honolulu Harbor, but it was called Fair Haven before.  In 1850 Kamehameha III declared that Honolulu would be the capital of Hawaii. In 1905 after the us had taken over Hawaii they named honolulu the Oahu county but just two years later it was changed to the city and county of honolulu. Honolulu is now the educational center of the state.
+</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>374,701</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Ala Moana Center<br> 
+                           Waikiki Beach<br>
+                           Shangri La museum of islamic art and Culture<br>
+                           USS Arizona Memorial<br> 
+                           Iolani Palace<br>
+
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Today Honolulu is the business center of Oahu with many tall building for major corporations. Honolulu also has many ports where shipping comes in and out. Not only is Honolulu the business center it is also a cultural melting pot where many different cultures can be seen. There are numerous japanese temples and many chinese stores</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+    <div id = 'a26'>
+        <div>
+            <h3>Kaneohe</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a26')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>The name of kaneohe comes from an ancient hawaiian story of a local lady calling her husband's cruelty to the sharp edge of bamboo when it is cut which lead to the name of bamboo man. It used to be an agriculture area. The leading crops of kaneohe started with taro and sweet potato then it became rice later becoming pineapples ending with bananas. Even though the land around kaneohe bay were being changed somehow the reef stayed resilient</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>34597(2010)</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Ho'omaluhia Botanical <br>
+                           Garden three golf courses<br>
+                            Pali Golf Course<br>
+                           Ko'olau Golf Club<br>
+                           Bayview Golf Park<br>
+                           Byody-In Temple at the Valley of the Temples Memorial Park.<br>
+
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>One of the largest residential communities on the windward side. There are several restaurants and mall complex on Windward Mall. It is 8.5 sq. mi.Since itsd mostly a residential area, theres not that much agriculture. But its main commercial crop is bana.  Kaneohe has a bay called Kanehoe Bay where in late 60s till 2000 there were dumping trash into the bay which has damaged the coral reefs that were homed to many organisms.  The university of hawaii manoa has made an operation to restore the bay. </p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+        <div id = 'a27'>
+        <div>
+            <h3>Kaawa</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a27')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>1863 and 1870 sugar mills were built on this land but were closed down due to the lack of rainfall. During WWII Kaaawa was a military reservation. This was large military camp to home troops that are going through jungle warfare training. Kaaawa is also a part of kualoa ranch.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>1379(2010) </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Kahana Bay <br>
+                           Ahupua’a O Kahana State Park<br>
+                           Swanzy Beach Park<br>
+                           Mokoli’i<br>
+                           Kualoa Ranch<br>
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>  It is a small community. It’s in Oahu’s windward coast. "Ka'a'awa" means "the yellow wrasse fish" in Hawaiian. These yellow wrasse fish, 'a'awa, are reef fish in Hawaii. Kaaawa has an approximate area of 1.3 sq mi. It’s located more in the Northern East side of Oahu.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+            <div id = 'a28'>
+        <div>
+            <h3>Punaluu</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a28')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>The name in hawaiian means diving springs. In the 19th century rice was the main crop grown on this piece of land. Chinese immigrants were the ones coming to work on this part. After a while though the rice farming started to decline because the older laborers couldn’t tend to the rice paddies, in addition to that the local demand for rice had declined.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>1,164(2010) </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Punalu’u Beach Park  <br>
+                           Makao Beach<br>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>   Located on the west side punaluu is known for its reef that extends to the shoreline. Punaluu also has many beach parks for those who wish to swim.  Punaluu is a another town like nanakuli but the population is that much mostly people who are fishing</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+            <div id = 'a29'>
+        <div>
+            <h3>Pupukea</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a29')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Pupukea was more of a residential area the main history it has is about it’s “sharks cove”. In Hawaiian the name translates to white shell. The cove got its name because apparently the trains that used to run through would dump ther cattle carcassas into the water and it was said to attract many sharks.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>4,551(2010) </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Waimea Bay  <br>
+                           Waimea Valleyk<br>
+                           Sunset Beach<br>
+                           Waimea Bay Beach Park
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>  The pupukea of today is now much more a tourist location. The previous sharks cove now has no sharks and has become a staple beach that tourist can swim at because it is calm. Many locals set up their own businesses on the side so that tourists can get “authentic” hawaiian souvenirs.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+            <div id = 'a30'>
+        <div>
+            <h3>Kahaluu</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a30')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Kahaluu is a subsidiary part of  kaneohe so it doesn't have much of a history for itself but mainly shares a history with kaneohe. This area has been populated for almost 500 years, and in the 18th and 19th centuries was an important royal residence
+</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>4738(2010) </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Kahaluu Beach <br>
+                          He’eia State Parkk<br>
+                          Kane’ohe Bay<br>
+                           Mokoli’i<br>
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p> Kahaluu is on the North East side of oahu and its most notable features are its beaches. Part of Kaneohe. Kahaluu is a rural area that transforms into a densely packed residential community.  Kahaluu is a good area to fish as there are some small sea ports in the area.  </p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+            <div id = 'a31'>
+        <div>
+            <h3>Mililani Town</h3>
+        </div>
+        <div class="redcircle" onclick="hideCity('a31')"></div>
+
+                <div id = "text">
+                    <div class = "box">
+                        <h3>History</h3>
+                        <p>Mililani is a 35 year old Town This Year.  Mililani sprouted up from a the red clay of plantation fields in central Oahu.  Mililani was founded and got it’s name from a house salesman named Callum Au when he started sellings houses in the area the community name got its name Mililani.</p>
+                    </div>
+                    <div class = "box">
+                        <h3>Population</h3>
+                        <p>27,629 </p>
+                    </div>
+                    <div class = "box">
+                        <h3>Tourist Attractions</h3>
+                        <p>Central Oahu Regional Park<br>
+                           Kipapa Park<br>
+                           Mililani Mauka
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Current Discription</h3>
+                        <p>  Mililani is a town that is considered mainland town according to the state.  Mililani is a community filled with people who joined the military and stationed in Hawaii.  Mililani used to just be nothing until people build houses and sold those houses to build some more and so on.</p>
+                    </div>
+                </div>
+
+        <div>
+        
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
