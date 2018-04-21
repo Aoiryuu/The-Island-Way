@@ -9,7 +9,7 @@ var points = [
 
 	{id:a2,
 
-		city:"Pearl City" },
+		city:"Pearl Bity" },
 
 	{id:a3,
 
@@ -127,7 +127,9 @@ var points = [
 
 		city:"Mililani Town" },
 
-	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	
+
+
 ]
 
 var currentCity = null;
@@ -136,6 +138,8 @@ function showData(city){
 	document.getElementById("overlay").style.display="block";
 	document.getElementById("overlay").append(document.getElementById(city));
 	document.getElementById(city).style.display = "block";
+	document.getElementById(city).style.borderStyle ="none";
+
 }
 function hideCity(currentCity){
 	document.getElementById(currentCity).style.display = "none"
