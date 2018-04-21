@@ -2,26 +2,30 @@ body{
 	background-color: #a0d6b4;
 }
 
-#title {
-	font-style: italic;
-	font-size: 21px;
-	background-color: gray;
+#overlay{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    background-size: 110% 100%;
+}
+
+#logo
+ {
+    font-style: italic;
+    font-size: 60px;
+    background-color: #90EE90;
+    border: solid;
 }
 
 
-img {
-	margin-right: 50px;
-	margin-top: 50px;
-	max-width: 100%;
-	height: 75%;
-	position: absolute;
-	top: 10%;
-	left: 10%;
-	margin-left: 50px;
-}
-.oahu{
-	width: 42%;
-	height: 42%;
+.row{
+    background-image:url('https://jpl.jpl.nasa.gov/spaceimages/images/largesize/PIA14898_hires.jpg' );
+    position: relative;
+    background-size: 110% 100%;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    
 }
 
 .column{
@@ -30,33 +34,337 @@ img {
 	border-radius: 25px;
     background: #90EE90;
     padding: 20px; 
-    max-width: 100px;
-    width: 80%;
+    width: 70px;
     height: 600px; 
 }
 
 
-#logo {
-	background-color: white;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #90EE90;
-	position: relative;
-    font-size: 17px;
-
-}
-
-
-.circle {
+#waipahu {
 	width: 10px;
 	height: 10px;
 	border-radius: 100%; 
 	background-color: blue; 
 	position: absolute;
-	top: 50%;
-	right: 50%;
+    top: 65%;
+    right: 55%;	
 }
 
+#pearlCity {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 60%;
+    right: 45%; 
+}
+
+#waimalu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 67%;
+    right: 44%; 
+}
+
+#whitmore {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 44%;
+    right: 52%; 
+}
+
+#ahuimanu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 59%;
+    right: 26%; 
+}
+
+#waikane {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 47%;
+    right: 33%; 
+}
+
+#heeia {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 60%;
+    right: 29%; 
+}
+
+#waimanalo {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 78%;
+    right: 17%; 
+}
+
+#waialua {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 33%;
+    right: 70%; 
+}
+
+#wahiawa {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 50%;
+    right: 53%; 
+}
+
+#maunawili {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 70%;
+    right: 25%; 
+}
+
+#aiea {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 77%;
+    right: 40%; 
+}
+
+#Haleiwa {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 32%;
+    right: 63%; 
+}
+
+#Nanakulii {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 62%;
+    right: 67%; 
+}
+
+#Makaha {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 47%;
+    right: 73%; 
+}
+
+#Waianae {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 57%;
+    right: 66%; 
+}
+
+#Ewa {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 78%;
+    right: 50%; 
+}
+
+#MililaniMauka {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 55%;
+    right: 54%; 
+}
+
+#Kapolei {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 80%;
+    right: 60%; 
+}
+
+#Kahuku {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 10%;
+    right: 46%; 
+}
+
+#Laie {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 15%;
+    right: 43%; 
+}
+
+#Mokuleia {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 31%;
+    right: 68%; 
+}
+
+#Kailua {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 62%;
+    right: 21%; 
+}
+
+#Hauula {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 22%;
+    right: 42%; 
+}
+
+#Honolulu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 85%;
+    right: 30%; 
+}
+
+#Kaneohe {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 63%;
+    right: 27%; 
+}
+
+#Kaawa {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 38%;
+    right: 33%; 
+}
+
+#Punaluu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 27%;
+    right: 40%; 
+}
+
+#Pupukea {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 16%;
+    right: 54%; 
+}
+
+#Kahaluu {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 55%;
+    right: 32%; 
+}
+
+#MililaniTown {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
+    top: 50%;
+    right: 25%; 
+}
+
+
+
+
+
+
+
+
+
+.redcircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: red; 
+    position: absolute;
+    margin-left: 20px; 
+}
 
 .dropbtn {
     background-color: black;
@@ -64,7 +372,7 @@ img {
     padding: 200%;
     font-size: 100%;
     border: none;
-	margin-bottom: 10px;
+    border-radius: 10px;
 }
 .dropdown {
     position: relative;
@@ -92,17 +400,173 @@ img {
 
 
 #footer{
-    border-style: solid;
+    border-style: inset;
     display: block;
-   	width: 90%;
+   	width: 93.25%;
    	background-color: #90EE90;
    	line-height: 30px;
-  	position: absolute;
-  	bottom: 0;
-    margin-top: 500px;
-    margin-left: 50px;
+  	position: relative;
+  	top: 115%;
+    left: 6.25%;
 }
 
-p{
-	line-height: 1px;
+.tags {
+    color: white;
+    font-size: 12px
+}
+
+#a1{
+	display: none;
+	border: solid 1px;
+	text-align: center;
+}
+#a2{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a3{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a4{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a5{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a6{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a7{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a8{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a9{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a10{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a11{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a12{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a13{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a14{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a15{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a16{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a17{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a18{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a19{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a20{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a21{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a22{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a23{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a24{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a25{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a26{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a27{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a28{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a29{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a30{
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+#a31{
+    display: none;
+    border: solid 1px;
+    text-align: center;
 }
