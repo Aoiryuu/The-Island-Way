@@ -27,8 +27,6 @@ h3 {
     background-size: 110% 100%;
     background-repeat: no-repeat;
     margin-left: 80px;
-
-    
 }
 
 .column{
@@ -70,6 +68,9 @@ h3 {
     top: 65%;
     right: 55%;	
 }
+
+
+
 
 #pearlCity {
     width: 10px;
@@ -593,3 +594,10 @@ h3 {
     border: solid 1px;
     text-align: center;
 }
+
+.place:hover > .tags {
+    color: yellow;
+}
+
+
+
