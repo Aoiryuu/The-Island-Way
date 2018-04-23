@@ -12,18 +12,6 @@ body{
 	height:89.5%;
 }
 
-#bar {
-    position: absolute;
-    z-index: 3;
-    right: 1%
-}
-
-
-#button {
-    position: absolute;
-    z-index: 3;
-    right: 14.5%
-}
 
 #top{
 	border-style: solid;
