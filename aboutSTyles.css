@@ -3,7 +3,7 @@
 #Title {
     font-style: italic;
     font-size: 18px;
-    background-color: silver;
+    background-color: #556066;
     border: solid;
 }
 
@@ -69,16 +69,15 @@ p{
     margin-top: 100px;
     width: 90%;
     margin: auto;
-    background-color: white;
+    background-color: #556066;
     text-align: center;
 }
 }
 body {
-    background-color: #a0d6b4;
+    background-color: #7FA2B2;
 }
 body{
-    background-image: url("https://www.hirenethawaii.com/vosnet/Handlers/Content/Images/Image.ashx?splash/rwd/mainpic-01.png"), url("https://www.shape.com/sites/shape.com/files/honolulu-fb_0.jpg");
-    background-color: #cccccc;
+    background-color: #7FA2B2;
 }
 
 
