@@ -1,12 +1,12 @@
 body{
-	background-color: #a0d6b4;
+	background-color: #7FA2B2;
 }
 
 #overlay{
     display: none;
     position: absolute;
     z-index: 2;
-    background-color: gray;
+    background-color: #B2B0AC;
     background-size : 110% 100%;
 	left: 15.5%;
 	height:89.5%;
@@ -14,7 +14,7 @@ body{
 #top{
 	border-style: solid;
 	width: 	100%;
-	background: #90EE90;
+	background: #556066;
 	height: 5%;
 }
 h3 {
@@ -25,7 +25,7 @@ h3 {
 #logo {
 	text-align: center;
 	width :100%;
-	background-color:#90EE90;
+	background-color:#556066;
 	position: relative;
 }
 .row{
@@ -39,7 +39,7 @@ h3 {
 #column{
 	border-style: solid;
 	align-self: left;
-    background: #90EE90;
+    background: #F0FAFF;
     padding: 20px; 
     width: 70px;
     height: 600px; 
@@ -392,7 +392,7 @@ h3 {
     border-style: inset;
     display: block;
    	width: 100%;
-   	background-color: #90EE90;
+   	background-color: #556066;
    	line-height: 30px;
   	position: relative;
   	top: 115%;
