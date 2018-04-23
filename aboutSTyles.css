@@ -5,6 +5,8 @@
     font-size: 18px;
     background-color: #556066;
     border: solid;
+    font-family: 'Abril Fatface';
+    text-align: center;
 }
 
 #navBar {
@@ -13,10 +15,12 @@
     top: 4.5%;
 }
 h3{
-    font-size: 200%
+    font-size: 200%;
+        font-family: 'Abril Fatface';
 }
 p{
-    font-size: 150%
+    font-size: 150%;
+        font-family: 'Abril Fatface';
 }
 #text {
     margin-right: 10%;
@@ -24,6 +28,7 @@ p{
     border: solid 1px;
     padding: 10% 10%;
     background-color: #ffffff;
+    font-family: 'Abril Fatface';
 }
 .box{
     text-align: center;   
