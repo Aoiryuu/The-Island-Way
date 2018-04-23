@@ -168,7 +168,8 @@ function hidePic(currentImage) {
 	//document.getElementById("column").style.display = "none";
 }
 
-
+var d = new Date();
+document.getElementById("time").innerHTML = d;
 
 
 
