@@ -15,18 +15,21 @@ body{
 		border-style: solid;
 		width: 	100%;
 		background: #90EE90;
+        height: 10%;
+
+
 }
 
 #logo {
-	text-align: left;
-	font-size: 50px;
-	line-height: 5px;
-	border-radius: 50% ;
+	padding-bottom: -10%;
+	padding-top: 5px;
 	
+	border-radius: 50% ;
+	text-align: center;
 	width: 	100%;
 	background-color:#90EE90;
 	position: relative;
-  font-size: 17px;
+    font-size: 20px;
   
 
 }
@@ -396,6 +399,8 @@ body{
     font-size: 100%;
     border: none;
     border-radius: 30%;
+    z-index:    2;
+    
 
 }
 .dropdown {
