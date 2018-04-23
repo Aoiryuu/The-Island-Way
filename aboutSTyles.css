@@ -1,401 +1,39 @@
-body{
-	background-color: #a0d6b4;
+
+
+#Title {
+    font-style: italic;
+    font-size: 18px;
+    background-color: silver;
+    border: solid;
 }
 
-#overlay{
-    display: none;
+#navBar {
     position: absolute;
-    z-index: 2;
-    background-color: gray;
-    left: 15.5%;
-    height: 89.5%
+    right: 5%;
+    top: 4.5%;
 }
-
-h3 {
-    font-size: 24px;
-
+h3{
+    font-size: 200%
 }
-
-#logo {
-	text-align: left;
-	font-size: 50px;
-	line-height: 5px;
+p{
+    font-size: 150%
 }
-.row{
-    background-image:url('https://jpl.jpl.nasa.gov/spaceimages/images/largesize/PIA14898_hires.jpg' );
-    position: relative;
-    background-size: 110% 100%;
-    background-repeat: no-repeat;
-    margin-left: 80px;
+#text {
+    margin-right: 10%;
+    margin-left: 10%;
+    border: solid 1px;
+    padding: 10% 10%;
+    background-color: #ffffff;
 }
-
-#column{
-	border-style: solid;
-	align-self: left;
-	border-radius: 25px;
-    background: #90EE90;
-    padding: 20px; 
-    width: 70px;
-    height: 600px; 
+.box{
+    text-align: center;   
 }
-
-
-#logo {
-	background-color: white;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #90EE90;
-	position: relative;
-    font-size: 17px;
-
-}
-
-#whole {
-	width: 100%;
-}
-
-
-
-
-
-
-#waipahu {
-	width: 10px;
-	height: 10px;
-	border-radius: 100%; 
-	background-color: blue; 
-	position: absolute;
-    top: 65%;
-    right: 55%;	
-}
-
-
-
-
-#pearlCity {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 60%;
-    right: 45%; 
-}
-
-#waimalu {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 67%;
-    right: 44%; 
-}
-
-#whitmore {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 44%;
-    right: 52%; 
-}
-
-#ahuimanu {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 59%;
-    right: 26%; 
-}
-
-#waikane {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 47%;
-    right: 33%; 
-}
-
-#heeia {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 60%;
-    right: 29%; 
-}
-
-#waimanalo {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 78%;
-    right: 17%; 
-}
-
-#waialua {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 33%;
-    right: 70%; 
-}
-
-#wahiawa {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 50%;
-    right: 53%; 
-}
-
-#maunawili {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 70%;
-    right: 25%; 
-}
-
-#aiea {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 77%;
-    right: 40%; 
-}
-
-#Haleiwa {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 32%;
-    right: 63%; 
-}
-
-#Nanakulii {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 62%;
-    right: 67%; 
-}
-
-#Makaha {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 47%;
-    right: 73%; 
-}
-
-#Waianae {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 57%;
-    right: 66%; 
-}
-
-#Ewa {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 78%;
-    right: 50%; 
-}
-
-#MililaniMauka {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 55%;
-    right: 54%; 
-}
-
-#Kapolei {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 80%;
-    right: 60%; 
-}
-
-#Kahuku {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 10%;
-    right: 46%; 
-}
-
-#Laie {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 15%;
-    right: 43%; 
-}
-
-#Mokuleia {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 31%;
-    right: 68%; 
-}
-
-#Kailua {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 62%;
-    right: 21%; 
-}
-
-#Hauula {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 22%;
-    right: 42%; 
-}
-
-#Honolulu {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 85%;
-    right: 30%; 
-}
-
-#Kaneohe {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 63%;
-    right: 27%; 
-}
-
-#Kaawa {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 38%;
-    right: 33%; 
-}
-
-#Punaluu {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 27%;
-    right: 40%; 
-}
-
-#Pupukea {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 16%;
-    right: 54%; 
-}
-
-#Kahaluu {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 55%;
-    right: 32%; 
-}
-
-#MililaniTown {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: blue; 
-    position: absolute;
-    top: 50%;
-    right: 25%; 
-}
-
-
-
-
-
-
-
-
-
-.redcircle {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%; 
-    background-color: red; 
-    position: absolute;
-    margin-left: 20px; 
-}
-
 .dropbtn {
     background-color: black;
     color: white;
     padding: 200%;
     font-size: 100%;
     border: none;
-
 }
 .dropdown {
     position: relative;
@@ -420,236 +58,29 @@ h3 {
 .dropdown:hover .dropbtn {
     background-color: silver;
 }
-
-
+.name{
+    font-size: 100%;
+}
+.grade{
+    font-size: 75%;
+}
 #footer{
-    border-style: inset;
-    display: block;
-   	width: 93.25%;
-   	background-color: #90EE90;
-   	line-height: 30px;
-  	position: relative;
-  	top: 115%;
-    left: 6.25%;
-}
-
-.tags {
-    color: white;
-    font-size: 12px
-}
-
-#a1  {
-	display: none;
-	border: solid 1px;
-	text-align: center;
-    padding-top: 6%
-}
-#a2{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a3{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a4{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a5{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a6{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a7{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a8{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a9{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a10{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a11{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a12{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a13{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a14{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a15{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a16{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a17{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a18{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a19{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a20{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a21{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a22{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a23{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a24{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a25{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a26{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a27{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a28{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a29{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a30{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-#a31{
-    display: none;
-    border: solid 1px;
-    text-align: center;
-}
-
-.place:hover > .tags {
-    color: yellow;
-}
-
-#wholePic {
-    display: none;
-    z-index: 2;
-}
-
-#pic {
-    display: none;
-    z-index: 2;
-}
-
-
-.im {
-    height: 75px;
-    width: 75px;
-    z-index: 3;
-}
-
-.im:hover {
-    opacity: 0.7;
-}
-
-
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 3; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
+    border-style: solid;
+    margin-top: 100px;
+    width: 90%;
     margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+    background-color: white;
+    text-align: center;
+}
+}
+body {
+    background-color: #a0d6b4;
+}
+body{
+    background-image: url("https://www.hirenethawaii.com/vosnet/Handlers/Content/Images/Image.ashx?splash/rwd/mainpic-01.png"), url("https://www.shape.com/sites/shape.com/files/honolulu-fb_0.jpg");
+    background-color: #cccccc;
 }
 
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
+
+
 
