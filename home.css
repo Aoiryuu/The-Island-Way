@@ -2,6 +2,13 @@ body{
 	background-color: #7FA2B2;
 }
 
+#time {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    right: 3%;
+}
+
 #overlay{
     display: none;
     position: absolute;
