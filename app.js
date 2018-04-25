@@ -168,8 +168,15 @@ function hidePic(currentImage) {
 	//document.getElementById("column").style.display = "none";
 }
 
-var d = new Date();
-document.getElementById("time").innerHTML = d;
+var time = document.getElementById('time');
+function clock() {
+  var d = new Date();
+  var s = d.getSeconds();
+  var m = d.getMinutes();
+  var h = d.getHours();
+  time.textContent = h + ":" + m + ":" + s;
+}
+setInterval(clock, 1000);
 
 
 
