@@ -1,3 +1,17 @@
+function searching() {
+    console.log('oof');
+    var input = document.getElementById("bar").value;
+    console.log(input);
+
+    if (input === 'Waipahu') {
+    showData('a1');
+    }
+    else if (input === 'Pearl City')
+    showData('a2');
+}
+
+
+
 var points = [
 
 
