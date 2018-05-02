@@ -1,6 +1,21 @@
 body{
 	background-color: #a0d6b4;
 }
+
+#overlay{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: gray;
+    left: 15.5%;
+    height: 89.5%
+}
+
+h3 {
+    font-size: 24px;
+
+}
+
 #logo {
 	text-align: left;
 	font-size: 50px;
@@ -12,6 +27,7 @@ body{
     background-size: 110% 100%;
     background-repeat: no-repeat;
     margin-left: 80px;
+
     
 }
 
@@ -421,10 +437,11 @@ body{
     font-size: 12px
 }
 
-#a1{
+#a1  {
 	display: none;
 	border: solid 1px;
 	text-align: center;
+    padding-top: 6%
 }
 #a2{
     display: none;
