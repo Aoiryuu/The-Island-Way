@@ -1,5 +1,5 @@
 body{
-	background-color: #7FA2B2;
+    background-color: #7FA2B2;
 }
 
 #time {
@@ -15,16 +15,16 @@ body{
     z-index: 2;
     background-color: #B2B0AC;
     background-size : 110% 100%;
-	left: 15.5%;
-	height:89.5%;
+    left: 15.5%;
+    height:89.5%;
 }
 
 
 #top{
-	border-style: solid;
-	width: 	100%;
-	background: #556066;
-	height: 5%;
+    border-style: solid;
+    width:  100%;
+    background: #556066;
+    height: 5%;
 }
 h3 {
     font-size: 24px;
@@ -32,10 +32,10 @@ h3 {
 }
 
 #logo {
-	text-align: center;
-	width :100%;
-	background-color:#556066;
-	position: relative;
+    text-align: center;
+    width :100%;
+    background-color:#556066;
+    position: relative;
 }
 .row{
     background-image:url('https://jpl.jpl.nasa.gov/spaceimages/images/largesize/PIA14898_hires.jpg' );
@@ -46,20 +46,20 @@ h3 {
 }
 
 #column{
-	border-style: solid;
-	align-self: left;
+    border-style: solid;
+    align-self: left;
     background: #F0FAFF;
     padding: 20px; 
     width: 70px;
     height: 600px; 
-	margin-left: -6.95%;
+    margin-left: -6.95%;
 }
 
 
 
 #whole {
-	width: 100%;
-	margin-left: 	-.5%;
+    width: 100%;
+    margin-left:    -.5%;
 }
 
 
@@ -68,13 +68,13 @@ h3 {
 
 
 #waipahu {
-	width: 10px;
-	height: 10px;
-	border-radius: 100%; 
-	background-color: blue; 
-	position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: blue; 
+    position: absolute;
     top: 65%;
-    right: 55%;	
+    right: 55%; 
 }
 
 
@@ -400,11 +400,11 @@ h3 {
 #footer{
     border-style: inset;
     display: block;
-   	width: 100%;
-   	background-color: #556066;
-   	line-height: 30px;
-  	position: relative;
-  	top: 115%;
+    width: 100%;
+    background-color: #556066;
+    line-height: 30px;
+    position: relative;
+    top: 115%;
 }
 
 .tags {
@@ -413,9 +413,9 @@ h3 {
 }
 
 #a1  {
-	display: none;
-	border: solid 1px;
-	text-align: center;
+    display: none;
+    border: solid 1px;
+    text-align: center;
 }
 #a2{
     display: none;
