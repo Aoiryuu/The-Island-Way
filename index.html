@@ -4,155 +4,163 @@
     <meta charset="UTF-8">
     <title>The Island Way</title>
     <link rel="stylesheet" href="home.css">
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
 </head>
 <body>
     <div id="whole">
-        <div id="top">
+        <div id="top">  
+            <style>
+            #logo{
+                font-family: 'Abril Fatface';font-size: 22px;color: #7FA2B2;
+            }
+            </style>
             <div id="logo">
                 <h1>The Island Way</h1>
-                <div class="dropdown">
-                <button class="dropbtn">=</button>
-                <div class="dropdown-content">
-                    <a href="about.html">About</a>
-                 </div>
-                </div>            
+
             </div>
 
                 <div id="topNav">
 
+            </div>
+            <div id="searchBar">
+                <input id="bar" type="text" placeholder="City Name">
+                <button id="button" onclick="searching()">Search</button>
+            </div>
+             <div id="timeThing">    
+                <span id="time"></span>
             </div>
         </div>    
 <div id="overlay"></div>
     <div class="row">
 
 
-        <div class="column">
+        <div id="column">
             <h2>Home</h2>
             <p><a href="about.html" id="abt">About</p>
             </a>
         </div>
 
-        <div id="waipahu" onclick= "showData('a1')">
+        <div id="waipahu" class="place" onclick= "showData('a1');showPic('pic')";>
             <p class="tags">Waipahu</p>
         </div>
 
-        <div id="pearlCity" onclick= "showData('a2')">
+        <div id="pearlCity" class="place" onclick= "showData('a2');showPic('pic1')";>
             <p class="tags">Pearl City</p>
         </div>
 
-        <div id="waimalu" onclick= "showData('a3')">
+        <div id="waimalu" class="place" onclick= "showData('a3');showPic('pic2')";>
             <p class="tags">Waimalu</p>
         </div>
 
-        <div id="whitmore" onclick= "showData('a4')">
+        <div id="whitmore" class="place" onclick= "showData('a4');showPic('pic3')";>
             <p class="tags">Whitmore Village</p>
         </div>
 
-        <div id="ahuimanu" onclick= "showData('a5')">
+        <div id="ahuimanu" class="place" onclick= "showData('a5');showPic('pic4')";>
             <p class="tags">Ahuimanu</p>
         </div>
 
-        <div id="waikane" onclick= "showData('a6')">
+        <div id="waikane" class="place" onclick= "showData('a6');showPic('pic5')";>
             <p class="tags">Waikane</p>
         </div>
 
-        <div id="heeia" onclick= "showData('a7')">
+        <div id="heeia" class="place" onclick= "showData('a7');showPic('pic6')";>
             <p class="tags">Heeia</p>
         </div>
 
-        <div id="waimanalo" onclick= "showData('a8')">
+        <div id="waimanalo" class="place" onclick= "showData('a8');showPic('pic7')";>
             <p class="tags">Waimanalo</p>
         </div>
 
-        <div id="waialua" onclick= "showData('a9')">
+        <div id="waialua" class="place" onclick= "showData('a9');showPic('pic8')";>
             <p class="tags">Waialua</p>
         </div>
 
-        <div id="wahiawa" onclick= "showData('a10')">
+        <div id="wahiawa" class="place" onclick= "showData('a10');showPic('pic9')";>
             <p class="tags">Wahiawa</p>
         </div>
 
-        <div id="maunawili" onclick= "showData('a11')">
+        <div id="maunawili" class="place" onclick= "showData('a11');showPic('pic10')";>
             <p class="tags">Maunawili</p>
         </div>
 
-        <div id="aiea" onclick= "showData('a12')">
+        <div id="aiea" class="place" onclick= "showData('a12');showPic('pic11')";>
             <p class="tags">Aiea</p>
         </div>
 
-        <div id="Haleiwa" onclick= "showData('a13')">
+        <div id="Haleiwa" class="place" onclick= "showData('a13');showPic('pic12')";>
             <p class="tags">Haleiwa</p>
         </div>
 
-        <div id="Nanakulii" onclick= "showData('a14')">
+        <div id="Nanakulii" class="place" onclick= "showData('a14');showPic('pic13')";>
             <p class="tags">Nanakulii</p>
         </div>
 
-        <div id="Makaha" onclick= "showData('a15')">
+        <div id="Makaha" class="place" onclick= "showData('a15');showPic('pic14')";>
             <p class="tags">Makaha</p>
         </div>
 
-        <div id="Waianae" onclick= "showData('a16')">
+        <div id="Waianae" class="place" onclick= "showData('a16');showPic('pic15')";>
             <p class="tags">Waianae</p>
         </div>
 
-        <div id="Ewa" onclick= "showData('a17')">
+        <div id="Ewa" class="place" onclick= "showData('a17');showPic('pic16')";>
             <p class="tags">Ewa</p>
         </div>
 
-        <div id="MililaniMauka" onclick= "showData('a18')">
+        <div id="MililaniMauka" class="place" onclick= "showData('a18');showPic('pic17')";>
             <p class="tags">Mililani Mauka</p>
         </div>
 
-        <div id="Kapolei" onclick= "showData('a19')">
+        <div id="Kapolei" class="place" onclick= "showData('a19');showPic('pic18')";>
             <p class="tags">Kapolei</p>
         </div>
 
-        <div id="Kahuku" onclick= "showData('a20')">
+        <div id="Kahuku" class="place" onclick= "showData('a20');showPic('pic19')";>
             <p class="tags">Kahuku</p>
         </div>
 
-        <div id="Laie" onclick= "showData('a21')">
+        <div id="Laie" class="place" onclick= "showData('a21');showPic('pic20')";>
             <p class="tags">Laie</p>
         </div>
 
-        <div id="Mokuleia" onclick= "showData('a22')">
+        <div id="Mokuleia" class="place" onclick= "showData('a22');showPic('pic21')";>
             <p class="tags">Mokuleia</p>
         </div>
 
-        <div id="Kailua" onclick= "showData('a23')">
+        <div id="Kailua" class="place" onclick= "showData('a23');showPic('pic22')";>
             <p class="tags">Kailua</p>
         </div>
 
-        <div id="Hauula" onclick= "showData('a24')">
+        <div id="Hauula" class="place" onclick= "showData('a24');showPic('pic23')";>
             <p class="tags">Hauula</p>
         </div>
 
-        <div id="Honolulu" onclick= "showData('a25')">
+        <div id="Honolulu" class="place" onclick= "showData('a25');showPic('pic24')";>
             <p class="tags">Honolulu</p>
         </div>
 
-         <div id="Kaneohe" onclick= "showData('a26')">
+         <div id="Kaneohe" class="place" onclick= "showData('a26');showPic('pic25')";>
             <p class="tags">Kaneohe</p>
         </div>
 
-         <div id="Kaawa" onclick= "showData('a27')">
+         <div id="Kaawa" class="place" onclick= "showData('a27');showPic('pic26')";>
             <p class="tags">Kaawa</p>
         </div>
 
-         <div id="Punaluu" onclick= "showData('a28')">
+         <div id="Punaluu" class="place" onclick= "showData('a28');showPic('pic27')";>
             <p class="tags">Punaluu</p>
         </div>
 
-         <div id="Pupukea" onclick= "showData('a29')">
+         <div id="Pupukea" class="place" onclick= "showData('a29');showPic('pic28')";>
             <p class="tags">Pupukea</p>
         </div>
 
-         <div id="Kahaluu" onclick= "showData('a30')">
+         <div id="Kahaluu" class="place" onclick= "showData('a30');showPic('pic29')";>
             <p class="tags">Kahaluu</p>
         </div>
 
-         <div id="MililaniTown" onclick= "showData('a31')">
+         <div id="MililaniTown" class="place" onclick= "showData('a31');showPic('pic30')";>
             <p class="tags">Mililani Town</p>
         </div>
 
@@ -175,7 +183,8 @@
         <div>
             <h3 class="cityName">Waipahu</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a1') "></div>
+        <div class="redcircle" onclick="hideCity('a1');hidePic('pic');">
+        </div>
 
                 <div id = "text">
                     <div class = "box">
@@ -196,16 +205,15 @@
                         <h3>Current Discription</h3>
                         <p>What was once a sugar plantation is now a place full of parks and recreational centers. In addition, Waipahu are close to many resorts such as JW Marriott Ihilani Resort. Waipahu has an approximate area of 2.8 sq mi.</p>
                     </div>
-                </div>
+                    
+    </div>
 
-        <div>
-        
-        </div>                                                      
+                                                              
     <div id = "a2">
         <div>
             <h3>Pearl City</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a2')"></div>
+        <div class="redcircle" onclick="hideCity('a2');hidePic('pic1');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -239,7 +247,7 @@
         <div>
             <h3>Waimalu</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a3')"></div>
+        <div class="redcircle" onclick="hideCity('a3');hidePic('pic2');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -275,7 +283,7 @@
         <div>
             <h3>Whitmore Village</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a4')"></div>
+        <div class="redcircle" onclick="hideCity('a4');hidePic('pic3');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -306,7 +314,7 @@
         <div>
             <h3>Ahuimanu</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a5')"></div>
+        <div class="redcircle" onclick="hideCity('a5');hidePic('pic4');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -340,7 +348,7 @@
         <div>
             <h3>Waikane</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a6')"></div>
+        <div class="redcircle" onclick="hideCity('a6');hidePic('pic5');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -374,7 +382,7 @@
         <div>
             <h3>Heeia</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a7')"></div>
+        <div class="redcircle" onclick="hideCity('a7');hidePic('pic6');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -406,7 +414,7 @@
         <div>
             <h3>Waimanalo</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a8')"></div>
+        <div class="redcircle" onclick="hideCity('a8');hidePic('pic7');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -442,7 +450,7 @@
         <div>
             <h3>Waialua</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a9')"></div>
+        <div class="redcircle" onclick="hideCity('a9');hidePic('pic8');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -475,7 +483,7 @@
         <div>
             <h3>Wahiawa</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a10')"></div>
+        <div class="redcircle" onclick="hideCity('a10');hidePic('pic9');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -511,7 +519,7 @@
         <div>
             <h3>Maunawili</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a11')"></div>
+        <div class="redcircle" onclick="hideCity('a11');hidePic('pic10');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -547,7 +555,7 @@
         <div>
             <h3>Aiea</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a12')"></div>
+        <div class="redcircle" onclick="hideCity('a12');hidePic('pic11');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -583,7 +591,7 @@
         <div>
             <h3>Haleiwa</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a13')"></div>
+        <div class="redcircle" onclick="hideCity('a13');hidePic('pic12');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -619,7 +627,7 @@
         <div>
             <h3>Nanakulii</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a14')"></div>
+        <div class="redcircle" onclick="hideCity('a14');hidePic('pic13');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -655,7 +663,7 @@
         <div>
             <h3>Makaha</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a15')"></div>
+        <div class="redcircle" onclick="hideCity('a15');hidePic('pic14');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -691,7 +699,7 @@
         <div>
             <h3>Waianae</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a16')"></div>
+        <div class="redcircle" onclick="hideCity('a16');hidePic('pic15');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -727,7 +735,7 @@
         <div>
             <h3>Ewa</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a17')"></div>
+        <div class="redcircle" onclick="hideCity('a17');hidePic('pic16');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -764,7 +772,7 @@
         <div>
             <h3>Mililani Mauka</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a18')"></div>
+        <div class="redcircle" onclick="hideCity('a18');hidePic('pic17');"></div>
         
 
                 <div id = "text">
@@ -802,7 +810,7 @@
         <div>
             <h3>Kapolei</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a19')"></div>
+        <div class="redcircle" onclick="hideCity('a19');hidePic('pic18');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -838,7 +846,7 @@
         <div>
             <h3>Kahuku</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a20')"></div>
+        <div class="redcircle" onclick="hideCity('a20');hidePic('pic19');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -874,7 +882,7 @@
         <div>
             <h3>Laie</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a21')"></div>
+        <div class="redcircle" onclick="hideCity('a21');hidePic('pic20');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -911,7 +919,7 @@
         <div>
             <h3>Mokuleia</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a22')"></div>
+        <div class="redcircle" onclick="hideCity('a22');hidePic('pic21');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -946,7 +954,7 @@
         <div>
             <h3>Kailua</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a23')"></div>
+        <div class="redcircle" onclick="hideCity('a23');hidePic('pic22');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -982,7 +990,7 @@
         <div>
             <h3>Hauula</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a24')"></div>
+        <div class="redcircle" onclick="hideCity('a24');hidePic('pic23');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1018,7 +1026,7 @@
         <div>
             <h3>Honolulu</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a25')"></div>
+        <div class="redcircle" onclick="hideCity('a25');hidePic('pic24');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1055,7 +1063,7 @@
         <div>
             <h3>Kaneohe</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a26')"></div>
+        <div class="redcircle" onclick="hideCity('a26');hidePic('pic25');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1091,7 +1099,7 @@
         <div>
             <h3>Kaawa</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a27')"></div>
+        <div class="redcircle" onclick="hideCity('a27');hidePic('pic26');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1125,7 +1133,7 @@
         <div>
             <h3>Punaluu</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a28')"></div>
+        <div class="redcircle" onclick="hideCity('a28');hidePic('pic27');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1155,7 +1163,7 @@
         <div>
             <h3>Pupukea</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a29')"></div>
+        <div class="redcircle" onclick="hideCity('a29');hidePic('pic28');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1188,7 +1196,7 @@
         <div>
             <h3>Kahaluu</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a30')"></div>
+        <div class="redcircle" onclick="hideCity('a30');hidePic('pic29');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1222,7 +1230,7 @@
         <div>
             <h3>Mililani Town</h3>
         </div>
-        <div class="redcircle" onclick="hideCity('a31')"></div>
+        <div class="redcircle" onclick="hideCity('a31');hidePic('pic30');"></div>
 
                 <div id = "text">
                     <div class = "box">
@@ -1251,5 +1259,178 @@
         </div>
     </div>
     </div>
+
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+
+
+<div id="wholePic">
+    <div id="pic">
+        <img id="a1p1" class="im" src="http://www.oahutowingcompany.com/uploads/5/7/6/2/57628313/waipahu-tow-truck-service_orig.jpg">
+        <img id="a1p2" class="im" src="http://pbrhawaii.com/wp-content/uploads/2012/03/waipahu1-830x340.jpg" width="1000" height="1000">
+    </div>
+
+    <div id="pic1">
+        <img id="a2p1" class="im" src="https://crop-v3.agentfirecdn.com/choicehi.com/wp-content/uploads/sites/2/2017/09/095220d75d6e520a2820b56fe8725685-pearl-city-hawaii-old-apartments.jpg">
+        <img id="a2p2" class="im" src="https://www.to-hawaii.com/oahu/cities/images/pearlcity/pearl_city.jpg">
+    </div>
+
+    <div id="pic2">
+        <img id="a3p1" class="im" src="http://waimalutelegram.com/wp-content/uploads/2015/04/Kailua_Oahu1.jpg ">
+        <img id="a3p2" class="im" src="http://waimalutelegram.com/wp-content/uploads/2015/04/Kailua_from_Olomana1.png">
+    </div>
+
+
+    <div id="pic3">
+        <img id="a4p1" class="im" src="https://s3-media3.fl.yelpcdn.com/bphoto/4uNLzD25i0MovIIVAP-qwQ/l.jpg">
+        <img id="a4p2" class="im" src="https://photos.zillowstatic.com/p_e/IS6id40wmonqr60000000000.jpg">
+    </div>
+
+     <div id="pic4">
+        <img id="a5p1" class="im" src="https://i.ytimg.com/vi/9PNqes9MdOs/maxresdefault.jpg">
+        <img id="a5p2" class="im" src="https://c1.staticflickr.com/6/5099/5529266116_435c003013_b.jpg">
+    </div>
+
+     <div id="pic5">
+        <img id="a6p1" class="im" src="http://kenjisaito.com/pics/waipa.jpg">
+        <img id="a6p2" class="im" src="http://2.bp.blogspot.com/-DUwvrRQS3Eg/VWatRZwncpI/AAAAAAAAFXQ/8QUuO5DRTOM/s1600/IMG_6096.JPG">
+    </div>
+
+    <div id="pic6">
+        <img id="a7p1" class="im" src="https://dbedt.hawaii.gov/hcda/files/2013/01/heeia_heliarial.jpg">
+        <img id="a7p2" class="im" src="http://holokaiadventures.com/wp-content/uploads/2016/02/heeia_pond_CGG-560x250.jpg">
+    </div>
+
+     <div id="pic7">
+        <img id="a8p1" class="im" src="https://pictures.escapia.com/SandSea/1317240862.jpg">
+        <img id="a8p2" class="im" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Waimanalo_-_South.jpg/1200px-Waimanalo_-_South.jpg">
+    </div>
+
+     <div id="pic8">
+        <img id="a9p1" class="im" src="https://images.theoutbound.com/uploads/1431490467440/1cqtdgrr3q0n3ik9/c15008f8c22627055bb5e64c45ee6650?w=1200&h=630&fit=crop&auto=format">
+        <img id="a9p2" class="im" src="http://4.bp.blogspot.com/-cd1ug2hNDBs/UBXPSeYIO8I/AAAAAAAAB4w/Xqhv8ox3IuY/s1600/North+Shore+HI+Waialua+2011+(3)+WBlog.jpg">
+    </div>
+
+     <div id="pic9">
+        <img id="a10p1" class="im" src="https://www.hawaiiliving.com/assets/guides/2015/02/07/218/thumb1_lush-green-street-in-wahiawa-mountain-range-background.jpg">
+        <img id="a10p2" class="im" src="https://www.to-hawaii.com/oahu/cities/images/wahiawa/wahiawa_sign.jpg">
+    </div>
+
+     <div id="pic10">
+        <img id="a11p1" class="im" src="https://media-cdn.tripadvisor.com/media/photo-s/02/8d/07/eb/filename-dsc-0158-jpg.jpg">
+        <img id="a11p2" class="im" src="https://1bo9y82e76el2rf8ms1m5i0r-wpengine.netdna-ssl.com/wp-content/gallery/20140211_hikingmaunawilifalls/4.JPG">
+    </div>
+
+     <div id="pic11">
+        <img id="a12p1" class="im" src="https://www.to-hawaii.com/oahu/cities/images/aiea/aiea_heights.jpg">
+        <img id="a12p2" class="im" src="http://www.liveworkplayaiea.com/wp-content/uploads/2013/02/lwpa-render-mauka-coastline.jpg">
+    </div>
+
+     <div id="pic12">
+        <img id="a13p1" class="im" src="https://d126fxm3orgy3k.cloudfront.net/images/51ffe7a31cdabc29ab000008/12416693_SyGtl9jMz/12416693_4.jpg">
+        <img id="a13p2" class="im" src="http://haleiwatown.com/haleiwa_slides/images/samples2/Haleiwa_heli_L.jpg">
+    </div>
+
+     <div id="pic13">
+        <img id="a14p1" class="im" src="http://i.vimeocdn.com/video/617467228_1280x720.jpg">
+        <img id="a14p2" class="im" src="https://c1.staticflickr.com/3/2934/14077019785_4d028224c8_b.jpg">
+    </div>
+
+     <div id="pic14">
+        <img id="a15p1" class="im" src="https://i.ytimg.com/vi/8dzSMt8u3-U/maxresdefault.jpg">
+        <img id="a15p2" class="im" src="https://odis.homeaway.com/odis/listing/a5fc9da5-ec9a-4aec-b61b-4b176a15e5ff.c10.jpg">
+    </div>
+
+     <div id="pic15">
+        <img id="a16p1" class="im" src="https://i.ytimg.com/vi/X2ZoyuSYzGo/maxresdefault.jpg">
+        <img id="a16p2" class="im" src="http://www.wcchc.com/Content/images/careers/Beautiful-Health-Center-Waianae-Hawaii-Main-Campus-Aerial.jpg">
+    </div>
+
+     <div id="pic16">
+        <img id="a17p1" class="im" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ewa_Aerial.jpg/1200px-Ewa_Aerial.jpg">
+        <img id="a17p2" class="im" src="https://www.teamlally.com/thumbs/416x284/uploads/ewa%20beach%20homes.jpg">
+    </div>
+
+     <div id="pic17">
+        <img id="a18p1" class="im" src="https://i.ytimg.com/vi/86aXfRGX9G0/maxresdefault.jpg">
+        <img id="a18p2" class="im" src="https://activerain-store.s3.amazonaws.com/image_store/uploads/8/7/9/5/6/ar126945260365978.JPG">
+    </div>
+
+     <div id="pic18">
+        <img id="a19p1" class="im" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Kapolei_Oahu_Aerial.jpg/1200px-Kapolei_Oahu_Aerial.jpg">
+        <img id="a19p2" class="im" src="http://kapoleichamber.com/resources/theme/slider/images/header1.jpg">
+    </div>
+
+     <div id="pic19">
+        <img id="a20p1" class="im" src="https://l7.alamy.com/zooms/b43deef40f3447d18291fdb99d8eee98/popular-roadside-cooked-shrimp-stand-kahuku-shrimp-north-shore-oahu-apmfhk.jpg">
+        <img id="a20p2" class="im" src="https://ap.rdcpix.com/1368082680/77a84fdd07fbd233a3e0399fd2fec474l-m1xd-w640_h480_q80.jpg">
+    </div>
+
+     <div id="pic20">
+        <img id="a21p1" class="im" src="https://jeffreyfavero.com/wp-content/uploads/2013/03/JFP-MDO-124.jpg">
+        <img id="a21p2" class="im" src="https://aws.hawaii-guide.com/images/made/Laie__Oahu_1200_800_85_s_c1_c_c_0_0.jpg">
+    </div>
+
+     <div id="pic21">
+        <img id="a22p1" class="im" src="https://www.to-hawaii.com/oahu/beaches/images/mokuleiabeach/mokuleia_beach_park_aerial.jpg">
+        <img id="a22p2" class="im" src="http://www.sunsethomes.net/images/north_shore_images/area_mokuleia.jpg">
+    </div>
+
+     <div id="pic22">
+        <img id="a23p1" class="im" src="http://www.kitetrip-planner.com/images/KAILUAOAHU.jpg">
+        <img id="a23p2" class="im" src="data:image/jpeg;base64,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">
+    </div>
+
+     <div id="pic23">
+        <img id="a24p1" class="im" src="https://media-cdn.tripadvisor.com/media/photo-s/03/c9/12/02/hauula.jpg">
+        <img id="a24p2" class="im" src="data:image/jpeg;base64,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">
+    </div>
+
+     <div id="pic24">
+        <img id="a25p1" class="im" src="https://travel.usnews.com/static-travel/images/destinations/59/waikiki_beach_honolulu.jpg">
+        <img id="a25p2" class="im" src="https://novictorhelicopters.com/wp-content/uploads/2017/01/Citylights_product-min.jpg">
+    </div>
+
+     <div id="pic25">
+        <img id="a26p1" class="im" src=" http://www.paliplumies.com/Travel/Hawaii_Photos/kaneohe_bay2.jpg">
+        <img id="a26p2" class="im" src="http://media5.trover.com/T/554bc2878e7cb2281200161a/fixedw_large_4x.jpg">
+    </div>
+
+     <div id="pic26">
+        <img id="a27p1" class="im" src="https://www.to-hawaii.com/oahu/cities/images/kaaawa/kaaawa_beach.jpg">
+        <img id="a27p2" class="im" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Kaaawa_Oahu.jpg/1200px-Kaaawa_Oahu.jpg">
+    </div>
+
+     <div id="pic27">
+        <img id="a28p1" class="im" src="https://lh6.googleusercontent.com/_q-kr7FlwbCs/TVL3xOA350I/AAAAAAAAEHg/KUNOGluFrb0/s1600/IMG_0378.JPG">
+        <img id="a28p2" class="im" src="http://www.hawaiigaga.com/Images/attractions/punaluu-beach-park-s1.jpg">
+    </div>
+
+     <div id="pic28">
+        <img id="a29p1" class="im" src="https://www.to-hawaii.com/oahu/beaches/images/pupukeabeach/pupukea_tidepools.jpg">
+        <img id="a29p2" class="im" src="http://www.vrastatic.com/images/products/beach/p33/p33_zoom_524443d0bdaeb0.17508389.jpg">
+    </div>
+
+     <div id="pic29">
+        <img id="a30p1" class="im" src=" http://www.hawaiialoha.us/wp-content/uploads/2014/09/DSC_00901.jpg">
+        <img id="a30p2" class="im" src="https://photos.smugmug.com/On-the-Water/Tropics-Hawaii-Getaway/i-zvB3gwv/0/53651c93/L/Kahaluu%20Bay%20Oahu%20Hawaii_4245-L.jpg">
+    </div>
+
+     <div id="pic30">
+        <img id="a31p1" class="im" src="https://i.pinimg.com/originals/7d/32/87/7d3287af6b87f9991627448e37476b88.jpg">
+        <img id="a31p2" class="im" src="https://i.pinimg.com/originals/28/25/f5/2825f57552fb005be79498fe35fd1fde.jpg">
+    </div>
+</div>
+
+
 <script src="app.js"></script>
 </body>
