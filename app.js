@@ -1,13 +1,84 @@
+
+function oneCap(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+	}  
 function searching() {
     console.log('oof');
     var input = document.getElementById("bar").value;
-    console.log(input);
+    console.log(oneCap(input));
+    var cap = oneCap(input);
 
-    if (input === 'Waipahu') {
+
+	
+
+
+    if (cap === 'Waipahu') {
     showData('a1');
     }
     else if (input === 'Pearl City')
     showData('a2');
+	else if (input === 'Waimalu')
+    showData('a3');
+	else if (input === 'Whitmore')
+    showData('a4');
+	else if (input === 'Ahuimanu')
+    showData('a5');
+	else if (input === 'Waikane')
+    showData('a6');
+	else if (input === 'Heeia')
+    showData('a7');
+	else if (input === 'Waimanalo')
+    showData('a8');
+	else if (input === 'Waialua')
+    showData('a9');
+	else if (input === 'Wahiawa')
+    showData('a10');
+	else if (input === 'Maunawili')
+    showData('a11');
+	else if (input === 'Aiea')
+    showData('a12');
+	else if (input === 'Haleiwa')
+    showData('a13');
+	else if (input === 'Nanakulii')
+    showData('a14');
+	else if (input === 'Makaha')
+    showData('a15');
+	else if (input === 'Waianae')
+    showData('a16');
+	else if (input === 'Ewa')
+    showData('a17');
+	else if (input === 'Mililani Mauka')
+    showData('a18');
+	else if (input === 'Kapolei')
+    showData('a19');
+	else if (input === 'Kahuku')
+    showData('a20');
+	else if (input === 'Laie')
+    showData('a21');
+	else if (input === 'Kailua')
+    showData('a23');
+	else if (input === 'Hauula')
+    showData('a24');
+	else if (input === 'Honolulu')
+    showData('a25');
+	else if (input === 'Kaneohe')
+    showData('a26');
+	else if (input === 'Kaawa')
+    showData('a27');
+	else if (input === 'Punaluu')
+    showData('a28');
+	else if (input === 'Pupukea')
+    showData('a29');
+	else if (input === 'Kahaluu')
+    showData('a30');
+	else if (input === 'Mokuleia')
+    showData('a22');
+	else if (input === 'Mililani Town')
+    showData('a31');
+	
+	
+	
+
 }
 
 
