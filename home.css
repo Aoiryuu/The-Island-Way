@@ -1,11 +1,11 @@
 body{
-    background-color: #7FA2B2;
+    background-color: #000010;
 }
 
 #time {
     position: absolute;
     z-index: 3;
-    color: white;
+    color: #70A54C;
     right: 3%;
 }
 
@@ -13,7 +13,7 @@ body{
     display: none;
     position: absolute;
     z-index: 2;
-    background-color: #B2B0AC;
+    background-color: #BCB9A5;
     background-size : 110% 100%;
     left: 15.5%;
     height:89.5%;
@@ -23,18 +23,19 @@ body{
 #top{
     border-style: solid;
     width:  100%;
-    background: #556066;
+    background: #000026;
     height: 5%;
 }
 h3 {
     font-size: 24px;
+    color: #70A54C;
 
 }
 
 #logo {
     text-align: center;
     width :100%;
-    background-color:#556066;
+    background-color:#000026;
     position: relative;
 }
 .row{
