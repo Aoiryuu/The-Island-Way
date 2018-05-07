@@ -1,3 +1,14 @@
+function autoCorrect(bar) {
+    var text = document.getElementById("bar");
+
+    var correcta1 = /hi/gi;
+    text.value = text.value.replace(correcta1, "Waipahu")
+
+    var correcta2 = /hy/gi;
+    text.value = text.value.replace(correcta2, "Pearl City")
+}
+
+
 
 function oneCap(str) {
         return str.charAt(0).toUpperCase() + str.slice(1);
