@@ -1,10 +1,10 @@
 
 
 #Title {
-    color: #7FA2B2;
+    color: white;
     font-style: italic;
     font-size: 18px;
-    background-color: #556066;
+    background-color: #1B4008;
     border: solid;
     font-family: 'Abril Fatface';
     text-align: center;
@@ -26,10 +26,13 @@ p{
     margin-left: 10%;
     border: solid 1px;
     padding: 10% 10%;
-    background-color: #ffffff;
+    background-color: #1B4008;
 }
-.box{
-    text-align: center;   
+.box {
+    text-align: center;
+    color: white;
+    background-color: #0E134C;
+    border: solid;
 }
 .dropbtn {
     background-color: black;
@@ -75,13 +78,11 @@ p{
     background-color: #556066;
     text-align: center;
 }
-}
+
 body {
-    background-color: #7FA2B2;
+    background-color: #0E134C;
 }
-body{
-    background-color: #7FA2B2;
-}
+
 
 
 
