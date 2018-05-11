@@ -589,7 +589,7 @@ h3 {
 }
 
 .place:hover > .tags {
-    color: yellow;
+    color: red;
 }
 
 #wholePic {
