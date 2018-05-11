@@ -1,5 +1,5 @@
 body{
-    background-color: #000010;
+    background-color: #0E134C;
 }
 
 #time {
@@ -13,16 +13,17 @@ body{
     display: none;
     position: absolute;
     z-index: 2;
-    background-color: #BCB9A5;
+    background-color: #1B4008;
     background-size : 110% 100%;
     left: 15.5%;
     height:89.5%;
+    border-left: solid white;
 }
 
 
 #top{
     width:  100%;
-    background: #003300;
+    background: #1B4008;
     height: 5%;
     border-bottom: 2px solid white;
 }
@@ -47,7 +48,7 @@ h3 {
 #logo {
     text-align: center;
     width :100%;
-    background-color:#003300;
+    background-color:#1B4008;
     position: relative;
 }
 
@@ -67,7 +68,7 @@ h3 {
     width: 70px;
     height: 600px; 
     margin-left: -6.95%;
-    background-color: #407737;
+    background-color: #0E134C;
 }
 
 
