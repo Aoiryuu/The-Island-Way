@@ -21,23 +21,36 @@ body{
 
 
 #top{
-    border-style: solid;
     width:  100%;
-    background: #000026;
+    background: #003300;
     height: 5%;
+    border-bottom: 2px solid white;
+}
+p{
+    color: white;
+
+}
+a{
+    color: white;
+}
+h2{
+    font-family: 'Verdana';
+    color: white;
+
 }
 h3 {
-    font-size: 24px;
-    color: #70A54C;
+    font-family: 'Verdana';
+    color: white;
 
 }
 
 #logo {
     text-align: center;
     width :100%;
-    background-color:#000026;
+    background-color:#003300;
     position: relative;
 }
+
 .row{
     background-image:url('https://jpl.jpl.nasa.gov/spaceimages/images/largesize/PIA14898_hires.jpg' );
     position: relative;
@@ -47,14 +60,16 @@ h3 {
 }
 
 #column{
-    border-style: solid;
+    border-right: 2px solid white;
     align-self: left;
     background: #F0FAFF;
     padding: 20px; 
     width: 70px;
     height: 600px; 
     margin-left: -6.95%;
+    background-color: #407737;
 }
+
 
 
 
@@ -399,19 +414,22 @@ h3 {
 }
 
 #footer{
-    border-style: inset;
+    border-top: 2px solid white;
     display: block;
     width: 100%;
-    background-color: #556066;
+    background-color: #003300;
     line-height: 30px;
     position: relative;
     top: 115%;
 }
 
+
 .tags {
-    color: white;
+    font-family: 'Verdana';
+    color: yellow;
     font-size: 12px
 }
+
 
 #a1  {
     display: none;
