@@ -67,8 +67,11 @@ h3 {
     padding: 20px; 
     width: 70px;
     height: 600px; 
-    margin-left: -6.95%;
     background-color: #0E134C;
+    position: relative;
+    background-size: 110% 100%;
+    background-repeat: no-repeat;
+    left: -81px;
 }
 
 
